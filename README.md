@@ -7,13 +7,16 @@ Cursive is the Clojure IDE that understands your code. Full details are availabl
 
 Cursive provides:
 
-* Syntax Highlighting
-* Navigation (Jump to symbol, Find Usages)
-* Symbol renaming
-* nREPL based REPL
-* Leiningen support
-* Paredit-style structural editing
-* Code formatting
-* A symbolic debugger
-* Solid integration with Java for mixed projects
-* All standard IntelliJ features (project management, VCS etc)
+- **Intelligent Editor** featuring code completion, syntax highlighting and real-time error highlighting.
+- **First-class ClojureScript** nearly all functionality is equivalent in Clojure and ClojureScript.
+- **Code Navigation** project and structure views, navigation to symbols, namespaces, classes, and Find Usages.
+- **REPL Integration** full integration with nREPL and clojure.main style REPLs for Clojure and ClojureScript.
+- **Test Integration** interactive running of clojure.test tests, with failures marked in the editor and visual diffs.
+- **Leiningen Support** full support for Leiningen including support for large multi-module projects.
+- **Structural Editing** full support for paredit style editing.
+- **Code Formatting** smart, customisable formatting support.
+- **Clojure Debugger** full support for debugging Clojure, including expression evaluation and debug REPLs.
+- **Refactorings** seamless rename, extract let, automatic imports and requires, and more.
+- **Interop Support** best in class support for Java interop, including smart completion using type inference.
+
+
