@@ -16,6 +16,10 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Fix Assert failed: port errors when starting nREPL [\#2440](https://github.com/cursive-ide/cursive/issues/2440)
 - core.async/<!! & core.async/>!! not resolveable in 1.9.4-eap5-2020.2 w/ tools-deps [\#2439](https://github.com/cursive-ide/cursive/issues/2439)
 
+### Deprecated
+
+- Remove Deps migrations from older project format. [\#2446](https://github.com/cursive-ide/cursive/issues/2446)
+
 ## 1.9.4-eap5 - 2020-09-22
 
 ### Changed
