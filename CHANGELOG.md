@@ -4,80 +4,38 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.9.4-eap6 - 2020-10-02
+## 1.9.4 - 2020-10-20
 
 ### Added
 
 - Add new option to format all forms as Indent Only [\#2443](https://github.com/cursive-ide/cursive/issues/2443)
 - Cursive will stop working with Intellij 2020.3 EAP [\#2438](https://github.com/cursive-ide/cursive/issues/2438)
+- Add support for with-test [\#2423](https://github.com/cursive-ide/cursive/issues/2423)
+- Add Resolve as: none option to form resolution customisation [\#2417](https://github.com/cursive-ide/cursive/issues/2417)
+- Stubs for Datomic dev-local [\#2397](https://github.com/cursive-ide/cursive/issues/2397)
+- Support for Lokeh/helix using stub generation [\#2330](https://github.com/cursive-ide/cursive/issues/2330)
+
+### Changed
+
+- Allow configuring parinfer bracket open behaviour [\#2432](https://github.com/cursive-ide/cursive/issues/2432)
+- Config option to disable hiccup prompts [\#2416](https://github.com/cursive-ide/cursive/issues/2416)
+- Deps artifact completion should not shorten artifacts where group is equal to artifact [\#2408](https://github.com/cursive-ide/cursive/issues/2408)
+- deps.edn alias support in :paths  [\#2404](https://github.com/cursive-ide/cursive/issues/2404)
+- Structural selection in let [\#2258](https://github.com/cursive-ide/cursive/issues/2258)
+- Hiccup conversion uses the class shortcut  [\#2184](https://github.com/cursive-ide/cursive/issues/2184)
 
 ### Fixed
 
 - Fix Assert failed: port errors when starting nREPL [\#2440](https://github.com/cursive-ide/cursive/issues/2440)
 - core.async/<!! & core.async/>!! not resolveable in 1.9.4-eap5-2020.2 w/ tools-deps [\#2439](https://github.com/cursive-ide/cursive/issues/2439)
+- HTML->Hiccup conversion producing invalid code [\#2420](https://github.com/cursive-ide/cursive/issues/2420)
+- Socket REPL doesn't flush consistently [\#2415](https://github.com/cursive-ide/cursive/issues/2415)
+- Deps project resolution broken in 1.10.1.624 [\#2410](https://github.com/cursive-ide/cursive/issues/2410)
+- Dependency completion in deps files broken in 1.9.2 [\#2393](https://github.com/cursive-ide/cursive/issues/2393)
 
 ### Removed
 
 - Remove Deps migrations from older project format. [\#2446](https://github.com/cursive-ide/cursive/issues/2446)
-
-## 1.9.4-eap5 - 2020-09-22
-
-### Changed
-
-- Allow configuring parinfer bracket open behaviour [\#2432](https://github.com/cursive-ide/cursive/issues/2432)
-
-### Fixed
-
-- Symbols are highlighted inside comments and when quoted in 1.9.4-eap4. [\#2431](https://github.com/cursive-ide/cursive/issues/2431)
-
-## 1.9.4-eap4 - 2020-09-17
-
-### Changed
-
-- Structural selection in let [\#2258](https://github.com/cursive-ide/cursive/issues/2258)
-
-### Fixed
-
-- Stub generation fails Cursive 1.9.4-eap3-2020.2 (2020.2) [\#2430](https://github.com/cursive-ide/cursive/issues/2430)
-
-## 1.9.4-eap3 - 2020-09-02
-
-### Added
-
-- Add support for with-test [\#2423](https://github.com/cursive-ide/cursive/issues/2423)
-- Add Resolve as: none option to form resolution customisation [\#2417](https://github.com/cursive-ide/cursive/issues/2417)
-- Support for Lokeh/helix using stub generation [\#2330](https://github.com/cursive-ide/cursive/issues/2330)
-
-### Changed
-
-- Config option to disable hiccup prompts [\#2416](https://github.com/cursive-ide/cursive/issues/2416)
-- Hiccup conversion uses the class shortcut  [\#2184](https://github.com/cursive-ide/cursive/issues/2184)
-
-### Fixed
-
-- HTML->Hiccup conversion producing invalid code [\#2420](https://github.com/cursive-ide/cursive/issues/2420)
-- Socket REPL doesn't flush consistently [\#2415](https://github.com/cursive-ide/cursive/issues/2415)
-
-## 1.9.4-eap2 - 2020-08-10
-
-### Fixed
-
-- Deps project resolution broken in 1.10.1.624 [\#2410](https://github.com/cursive-ide/cursive/issues/2410)
-
-## 1.9.4-eap1 - 2020-08-03
-
-### Added
-
-- Stubs for Datomic dev-local [\#2397](https://github.com/cursive-ide/cursive/issues/2397)
-
-### Changed
-
-- Deps artifact completion should not shorten artifacts where group is equal to artifact [\#2408](https://github.com/cursive-ide/cursive/issues/2408)
-- deps.edn alias support in :paths  [\#2404](https://github.com/cursive-ide/cursive/issues/2404)
-
-### Fixed
-
-- Dependency completion in deps files broken in 1.9.2 [\#2393](https://github.com/cursive-ide/cursive/issues/2393)
 
 ## 1.9.3 - 2020-07-30
 
