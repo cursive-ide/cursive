@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.10.0-eap2 - 2020-12-05
+
+### Fixed
+
+- Remote REPLs show error about display name [\#2468](https://github.com/cursive-ide/cursive/issues/2468)
+
 ## 1.10.0-eap1 - 2020-12-03
 
 ### Added
