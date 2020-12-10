@@ -4,13 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.10.0-eap2 - 2020-12-05
-
-### Fixed
-
-- Remote REPLs show error about display name [\#2468](https://github.com/cursive-ide/cursive/issues/2468)
-
-## 1.10.0-eap1 - 2020-12-03
+## 1.10.0 - 2020-12-10
 
 ### Added
 
@@ -27,8 +21,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - "Show usages" dialog not appearing again for namespaced keywords [\#2457](https://github.com/cursive-ide/cursive/issues/2457)
 - ClojureDocs aren't shown for CLJS files [\#2392](https://github.com/cursive-ide/cursive/issues/2392)
 - Clojure scratch files cannot be loaded into REPL due to file extension [\#1528](https://github.com/cursive-ide/cursive/issues/1528)
-
-## 1.10.0 - 2020-12-10
 
 ## 1.9.4 - 2020-10-20
 
@@ -105,24 +97,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Code Evaluation Tool not working on version 1.9.1-2019.3 [\#2345](https://github.com/cursive-ide/cursive/issues/2345)
 - "Show usages" dialog not appearing for namespaced keywords [\#2233](https://github.com/cursive-ide/cursive/issues/2233)
 - Jump to declaration doesnt work with defonce [\#1069](https://github.com/cursive-ide/cursive/issues/1069)
-
-## 1.10.0 - 2020-12-10
-
-### Added
-
-- Action to allow library dependencies to be copied to scratch files [\#2463](https://github.com/cursive-ide/cursive/issues/2463)
-- Repl profile name on tab [\#2282](https://github.com/cursive-ide/cursive/issues/2282)
-- Feature Request: Named REPLs [\#1974](https://github.com/cursive-ide/cursive/issues/1974)
-- Test runner [\#247](https://github.com/cursive-ide/cursive/issues/247)
-
-### Fixed
-
-- Namespace navigation not available with IntelliJIdea 2020.3/Cursive 1.9.4-2020.3 [\#2467](https://github.com/cursive-ide/cursive/issues/2467)
-- Cursive doesn't support unqualified data reader tags [\#2464](https://github.com/cursive-ide/cursive/issues/2464)
-- No structural editing in clojure scratch buffer [\#2461](https://github.com/cursive-ide/cursive/issues/2461)
-- "Show usages" dialog not appearing again for namespaced keywords [\#2457](https://github.com/cursive-ide/cursive/issues/2457)
-- ClojureDocs aren't shown for CLJS files [\#2392](https://github.com/cursive-ide/cursive/issues/2392)
-- Clojure scratch files cannot be loaded into REPL due to file extension [\#1528](https://github.com/cursive-ide/cursive/issues/1528)
 
 ## 1.9.1 - 2020-03-20
 
