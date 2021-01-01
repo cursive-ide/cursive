@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.10.1-eap1 - 2021-01-01
+
+### Fixed
+
+- Refactor > rename broken in 1.10.0-2020.3 [\#2473](https://github.com/cursive-ide/cursive/issues/2473)
+- Unable to add Leiningen Configuration  [\#2471](https://github.com/cursive-ide/cursive/issues/2471)
+
 ## 1.10.0 - 2020-12-10
 
 ### Added
