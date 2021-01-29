@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.10.1-eap2 - 2021-01-29
+
+### Added
+
+- Cursive will stop working with Intellij 2021.1 EAP [\#2491](https://github.com/cursive-ide/cursive/issues/2491)
+- Passing the line number in REPL commands [\#2488](https://github.com/cursive-ide/cursive/issues/2488)
+
+### Changed
+
+- Cursive doesn't provide version completion for :replace-deps [\#2490](https://github.com/cursive-ide/cursive/issues/2490)
+- Structural navigation doesn't work as expected within strings and comments [\#2097](https://github.com/cursive-ide/cursive/issues/2097)
+
+### Fixed
+
+- Importing Metabase project results in bogus "profiles" [\#2487](https://github.com/cursive-ide/cursive/issues/2487)
+
 ## 1.10.1-eap1 - 2021-01-01
 
 ### Fixed
