@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.10.1-eap3 - 2021-02-17
+
+### Fixed
+
+- Can't start REPL with 2019.3 [\#2504](https://github.com/cursive-ide/cursive/issues/2504)
+- Cursive fails at startup and locks IDE under 2021.1 EAP 2 [\#2502](https://github.com/cursive-ide/cursive/issues/2502)
+- Cursive Run/Debug Configuration forgets the "Specify custom port file" setting [\#2498](https://github.com/cursive-ide/cursive/issues/2498)
+
 ## 1.10.1-eap2 - 2021-01-29
 
 ### Added
