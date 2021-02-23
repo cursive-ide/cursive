@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.10.1-eap4 - 2021-02-23
+
+### Fixed
+
+- Using latest tools.deps.alpha CLI breaks Cursive [\#2511](https://github.com/cursive-ide/cursive/issues/2511)
+
 ## 1.10.1-eap3 - 2021-02-17
 
 ### Fixed
