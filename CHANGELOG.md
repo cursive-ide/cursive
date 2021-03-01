@@ -4,21 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.10.1-eap4 - 2021-02-23
-
-### Fixed
-
-- Using latest tools.deps.alpha CLI breaks Cursive [\#2511](https://github.com/cursive-ide/cursive/issues/2511)
-
-## 1.10.1-eap3 - 2021-02-17
-
-### Fixed
-
-- Can't start REPL with 2019.3 [\#2504](https://github.com/cursive-ide/cursive/issues/2504)
-- Cursive fails at startup and locks IDE under 2021.1 EAP 2 [\#2502](https://github.com/cursive-ide/cursive/issues/2502)
-- Cursive Run/Debug Configuration forgets the "Specify custom port file" setting [\#2498](https://github.com/cursive-ide/cursive/issues/2498)
-
-## 1.10.1-eap2 - 2021-01-29
+## 1.10.1 - 2021-03-01
 
 ### Added
 
@@ -32,12 +18,11 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ### Fixed
 
+- Using latest tools.deps.alpha CLI breaks Cursive [\#2511](https://github.com/cursive-ide/cursive/issues/2511)
+- Can't start REPL with 2019.3 [\#2504](https://github.com/cursive-ide/cursive/issues/2504)
+- Cursive fails at startup and locks IDE under 2021.1 EAP 2 [\#2502](https://github.com/cursive-ide/cursive/issues/2502)
+- Cursive Run/Debug Configuration forgets the "Specify custom port file" setting [\#2498](https://github.com/cursive-ide/cursive/issues/2498)
 - Importing Metabase project results in bogus "profiles" [\#2487](https://github.com/cursive-ide/cursive/issues/2487)
-
-## 1.10.1-eap1 - 2021-01-01
-
-### Fixed
-
 - Refactor > rename broken in 1.10.0-2020.3 [\#2473](https://github.com/cursive-ide/cursive/issues/2473)
 - Unable to add Leiningen Configuration  [\#2471](https://github.com/cursive-ide/cursive/issues/2471)
 
