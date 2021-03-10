@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.10.2-eap1 - 2021-03-10
+
+### Changed
+
+- Make structural movement commands work better on strings [\#2523](https://github.com/cursive-ide/cursive/issues/2523)
+
+### Fixed
+
+- Deps import fails when using :default-deps [\#2517](https://github.com/cursive-ide/cursive/issues/2517)
+- New Clojurescript test-namespace doesn't compile because of `:refer :all` [\#2508](https://github.com/cursive-ide/cursive/issues/2508)
+- Cursive crashes trying to open a project with a :keyword as the project.clj version [\#1999](https://github.com/cursive-ide/cursive/issues/1999)
+- (ns ... (:require [... :rename {a b}]) not handled [\#394](https://github.com/cursive-ide/cursive/issues/394)
+
 ## 1.10.1 - 2021-03-01
 
 ### Added
