@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.10.2-eap2 - 2021-03-11
+
+### Changed
+
+- Update deps support to pass path to git command-line [\#2525](https://github.com/cursive-ide/cursive/issues/2525)
+
 ## 1.10.2-eap1 - 2021-03-10
 
 ### Changed
