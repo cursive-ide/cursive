@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.11.0-eap1 - 2021-08-03
+
+### Added
+
+- Babashka problem inventory [\#2516](https://github.com/cursive-ide/cursive/issues/2516)
+- Support babashka as valid REPL target [\#2452](https://github.com/cursive-ide/cursive/issues/2452)
+
+### Fixed
+
+- [Deps] Sub-modules with same name do not resolve correctly in IntelliJ [\#2391](https://github.com/cursive-ide/cursive/issues/2391)
+
 ## 1.10.3 - 2021-07-28
 
 ### Added
