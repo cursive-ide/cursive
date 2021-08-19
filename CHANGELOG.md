@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.11.0-eap3 - 2021-08-19
+
+### Fixed
+
+- 1.11.0-eap2 produces IllegalArgumentException [\#2582](https://github.com/cursive-ide/cursive/issues/2582)
+
 ## 1.11.0-eap2 - 2021-08-18
 
 ### Added
