@@ -32,6 +32,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 - [Deps] Sub-modules with same name do not resolve correctly in IntelliJ [\#2391](https://github.com/cursive-ide/cursive/issues/2391)
 
+## 1.11 - 2021-09-17
+
 ## 1.10.3 - 2021-07-28
 
 ### Added
@@ -354,4 +356,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Hangs on REPL Start: Error when starting java process due to length of classpath [\#1150](https://github.com/cursive-ide/cursive/issues/1150)
 - StackOverflowError in CLJS code [\#929](https://github.com/cursive-ide/cursive/issues/929)
 - ToolWindow icons should be 13x13 [\#456](https://github.com/cursive-ide/cursive/issues/456)
+
+## 1.11 - 2021-09-17
 
