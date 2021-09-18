@@ -4,35 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.11.0-eap3 - 2021-08-19
-
-### Fixed
-
-- 1.11.0-eap2 produces IllegalArgumentException [\#2582](https://github.com/cursive-ide/cursive/issues/2582)
-
-## 1.11.0-eap2 - 2021-08-18
+## 1.11.0 - 2021-09-17
 
 ### Added
 
 - Add support for Grazie grammar checker [\#2579](https://github.com/cursive-ide/cursive/issues/2579)
-
-### Fixed
-
-- New versions of Tools Deps breaks git SHA support [\#2581](https://github.com/cursive-ide/cursive/issues/2581)
-- test markers not staying visible in gutter [\#2574](https://github.com/cursive-ide/cursive/issues/2574)
-
-## 1.11.0-eap1 - 2021-08-03
-
-### Added
-
 - Babashka problem inventory [\#2516](https://github.com/cursive-ide/cursive/issues/2516)
 - Support babashka as valid REPL target [\#2452](https://github.com/cursive-ide/cursive/issues/2452)
 
 ### Fixed
 
+- New versions of Tools Deps breaks git SHA support [\#2581](https://github.com/cursive-ide/cursive/issues/2581)
+- test markers not staying visible in gutter [\#2574](https://github.com/cursive-ide/cursive/issues/2574)
 - [Deps] Sub-modules with same name do not resolve correctly in IntelliJ [\#2391](https://github.com/cursive-ide/cursive/issues/2391)
-
-## 1.11 - 2021-09-17
 
 ## 1.10.3 - 2021-07-28
 
@@ -356,6 +340,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Hangs on REPL Start: Error when starting java process due to length of classpath [\#1150](https://github.com/cursive-ide/cursive/issues/1150)
 - StackOverflowError in CLJS code [\#929](https://github.com/cursive-ide/cursive/issues/929)
 - ToolWindow icons should be 13x13 [\#456](https://github.com/cursive-ide/cursive/issues/456)
-
-## 1.11 - 2021-09-17
 
