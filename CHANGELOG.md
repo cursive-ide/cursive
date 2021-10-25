@@ -4,6 +4,27 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.0-eap1 - 2021-10-25
+
+### Added
+
+- Add support for Package Search [\#2601](https://github.com/cursive-ide/cursive/issues/2601)
+- Suport the new require `:as-alias` option [\#2592](https://github.com/cursive-ide/cursive/issues/2592)
+- Allow attaching sources to dependencies [\#2591](https://github.com/cursive-ide/cursive/issues/2591)
+- Cursive should respect :classpath-overrides [\#2590](https://github.com/cursive-ide/cursive/issues/2590)
+- Cursive plugin doesn't work with Intellij IDEA 2021.3 EAP [\#2589](https://github.com/cursive-ide/cursive/issues/2589)
+- Add support for tools build [\#2580](https://github.com/cursive-ide/cursive/issues/2580)
+
+### Changed
+
+- Make structural movement commands work better on comments [\#2593](https://github.com/cursive-ide/cursive/issues/2593)
+- Map indentation option when key and value are on separate lines [\#2547](https://github.com/cursive-ide/cursive/issues/2547)
+- Be (optionally) able to skip map alignment by inserting blank lines [\#2026](https://github.com/cursive-ide/cursive/issues/2026)
+
+### Fixed
+
+- JetBrain's "Code with Me" plugin doesn't share the REPL [\#2486](https://github.com/cursive-ide/cursive/issues/2486)
+
 ## 1.11.0 - 2021-09-17
 
 ### Added
