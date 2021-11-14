@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.0-eap2 - 2021-11-14
+
+### Added
+
+- Support selecting the clojure CLI config directory [\#2212](https://github.com/cursive-ide/cursive/issues/2212)
+
+### Changed
+
+- Format forms for comparison when using test runner [\#2609](https://github.com/cursive-ide/cursive/issues/2609)
+- Update package search support to handle source dependencies [\#2606](https://github.com/cursive-ide/cursive/issues/2606)
+
+### Fixed
+
+- Structural actions don't work in test result diffs [\#2611](https://github.com/cursive-ide/cursive/issues/2611)
+- Cursive causes IDE Hang [\#2587](https://github.com/cursive-ide/cursive/issues/2587)
+
 ## 1.12.0-eap1 - 2021-10-25
 
 ### Added
