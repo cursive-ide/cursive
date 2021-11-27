@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.0-eap3 - 2021-11-27
+
+### Fixed
+
+- Symbol cannot be resolved errors when using new :as-alias support [\#2615](https://github.com/cursive-ide/cursive/issues/2615)
+- Stop stealing focus when starting REPL [\#1579](https://github.com/cursive-ide/cursive/issues/1579)
+
 ## 1.12.0-eap2 - 2021-11-14
 
 ### Added
@@ -231,41 +238,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Non-static inner classes fail to recognize constructor [\#2277](https://github.com/cursive-ide/cursive/issues/2277)
 - java.util.IllegalFormatConversionException: d != java.lang.String on IntelliJ 2019.2.4/2019.3 + cursive 1.9.0-2019.2/2019.3 [\#2276](https://github.com/cursive-ide/cursive/issues/2276)
 - Quick doc/definition popup empty in .cljc files when ClojureScript dependency present [\#1645](https://github.com/cursive-ide/cursive/issues/1645)
-
-## 1.9.0 - 2019-11-25
-
-### Added
-
-- Support for 2019.3 [\#2240](https://github.com/cursive-ide/cursive/issues/2240)
-- Support nREPL middleware for Deps projects [\#2215](https://github.com/cursive-ide/cursive/issues/2215)
-- Allow switching REPL editor to plain text [\#2206](https://github.com/cursive-ide/cursive/issues/2206)
-- Add option to REPL commands to not save files [\#2201](https://github.com/cursive-ide/cursive/issues/2201)
-- Add a plugin icon [\#2192](https://github.com/cursive-ide/cursive/issues/2192)
-
-### Changed
-
-- Allow configurable test path handling with Deps [\#2253](https://github.com/cursive-ide/cursive/issues/2253)
-- Fulcro 3 Code Motion [\#2241](https://github.com/cursive-ide/cursive/issues/2241)
-- Update Cursive to use system deps.edn from t.d.a when available [\#2200](https://github.com/cursive-ide/cursive/issues/2200)
-- The restart button in the REPL seems to reversed [\#977](https://github.com/cursive-ide/cursive/issues/977)
-
-### Fixed
-
-- Deps/Leiningen Refresh Projects action is only available from project file [\#2274](https://github.com/cursive-ide/cursive/issues/2274)
-- Use correct pluralisation for "ClojureDocs archive is 0 day old" [\#2273](https://github.com/cursive-ide/cursive/issues/2273)
-- Import/require popup no longer shows in REPL editor [\#2270](https://github.com/cursive-ide/cursive/issues/2270)
-- Dependency completion no longer works [\#2255](https://github.com/cursive-ide/cursive/issues/2255)
-- For Deps, handle -Sdescribe returning project deps.edn [\#2251](https://github.com/cursive-ide/cursive/issues/2251)
-- No default Clojure platform for creating test namespace via New -> Clojure Namespace [\#2249](https://github.com/cursive-ide/cursive/issues/2249)
-- deps alias ordering [\#2246](https://github.com/cursive-ide/cursive/issues/2246)
-- eap3 causes IDEA to report error in java module [\#2245](https://github.com/cursive-ide/cursive/issues/2245)
-- Stub generation fails Cursive 1.9.0-eap2-2019.3 (also 2019.2) [\#2242](https://github.com/cursive-ide/cursive/issues/2242)
-- `Syntax error compiling at (cheshire/generate.clj:1:1)` when refreshing Leiningen projects [\#2208](https://github.com/cursive-ide/cursive/issues/2208)
-- Exception lines are not correctly linked [\#2199](https://github.com/cursive-ide/cursive/issues/2199)
-- Error in deps file causes useless exception on import [\#2198](https://github.com/cursive-ide/cursive/issues/2198)
-- Exceptions from Clojure 1.10.1 on Windows cause Cursive exception [\#2197](https://github.com/cursive-ide/cursive/issues/2197)
-- Cursive obscures the repl expression with REBL [\#2113](https://github.com/cursive-ide/cursive/issues/2113)
-- REPL history only available after second expression. [\#2003](https://github.com/cursive-ide/cursive/issues/2003)
 
 ## 1.8.2 - 2019-12-10
 
