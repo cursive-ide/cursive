@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.1 - 2021-11-30
+
+### Fixed
+
+- Cursive is binary incompatible with 2021.3 final release [\#2618](https://github.com/cursive-ide/cursive/issues/2618)
+
 ## 1.12.0 - 2021-11-29
 
 ### Added
