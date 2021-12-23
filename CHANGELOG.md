@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.2-eap1 - 2021-12-23
+
+### Added
+
+- Trigger Visual Diff from REPL [\#2128](https://github.com/cursive-ide/cursive/issues/2128)
+
+### Fixed
+
+- Running tests with Leiningen results in exception [\#2621](https://github.com/cursive-ide/cursive/issues/2621)
+- REPL history move commands are broken in Cursive 1.12.0 & 1.12.1 [\#2620](https://github.com/cursive-ide/cursive/issues/2620)
+
 ## 1.12.1 - 2021-11-30
 
 ### Fixed
@@ -226,115 +237,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Non-static inner classes fail to recognize constructor [\#2277](https://github.com/cursive-ide/cursive/issues/2277)
 - java.util.IllegalFormatConversionException: d != java.lang.String on IntelliJ 2019.2.4/2019.3 + cursive 1.9.0-2019.2/2019.3 [\#2276](https://github.com/cursive-ide/cursive/issues/2276)
 - Quick doc/definition popup empty in .cljc files when ClojureScript dependency present [\#1645](https://github.com/cursive-ide/cursive/issues/1645)
-
-## 1.8.2 - 2019-12-10
-
-### Added
-
-- Add support for EnvFile plugin for env var management [\#2160](https://github.com/cursive-ide/cursive/issues/2160)
-- Support for Leiningen 2.9.1? [\#2158](https://github.com/cursive-ide/cursive/issues/2158)
-- Add stubs support for datomic ions [\#2156](https://github.com/cursive-ide/cursive/issues/2156)
-- Allow pasting HTML code into hiccup [\#2154](https://github.com/cursive-ide/cursive/issues/2154)
-- Make new error messages in Clojure 1.10 clickable [\#2142](https://github.com/cursive-ide/cursive/issues/2142)
-- Add option to set environment variables in leiningen run config [\#1953](https://github.com/cursive-ide/cursive/issues/1953)
-- When hover on showing code examples for built-in functions on clojuredocs.org [\#1783](https://github.com/cursive-ide/cursive/issues/1783)
-
-### Changed
-
-- When using t.d.a directly for Deps support, the configured IntelliJ proxy should be obeyed [\#2150](https://github.com/cursive-ide/cursive/issues/2150)
-- Allow user to specify Maven repo to use when using t.d.a directly for Deps support [\#2149](https://github.com/cursive-ide/cursive/issues/2149)
-
-### Fixed
-
-- Pasting and converting HTML to Hiccup loses contents of <style> and <script> tags [\#2171](https://github.com/cursive-ide/cursive/issues/2171)
-- Resolve :extra-deps under aliases to be part of a project [\#2164](https://github.com/cursive-ide/cursive/issues/2164)
-- "Allow running in parallel" option in run configs defaults to false and doesn't persist [\#2162](https://github.com/cursive-ide/cursive/issues/2162)
-- deps.edn alias overrides from `~/.clojure/deps.edn` fail if they contain '/' [\#2161](https://github.com/cursive-ide/cursive/issues/2161)
-- deps.edn with metadata does not import [\#2155](https://github.com/cursive-ide/cursive/issues/2155)
-- Deps defaults to Clojure 1.9.0 when using t.d.a directly [\#2148](https://github.com/cursive-ide/cursive/issues/2148)
-- Test result / diff not showing  [\#2123](https://github.com/cursive-ide/cursive/issues/2123)
-- Code reformat with Parinfer breaks code: def with metadata [\#2044](https://github.com/cursive-ide/cursive/issues/2044)
-- Parinfer is confused when functions are indirectly referenced [\#2027](https://github.com/cursive-ide/cursive/issues/2027)
-- Namespaced keyword "Navigate to Declaration" and "Find Usages" do not work outside of CLJC files [\#1913](https://github.com/cursive-ide/cursive/issues/1913)
-- Not all usages of namespaced keywords are found [\#1908](https://github.com/cursive-ide/cursive/issues/1908)
-- metadata map followed by newline indents incorrectly [\#796](https://github.com/cursive-ide/cursive/issues/796)
-
-## 1.8.1 - 2019-12-10
-
-### Added
-
-- Show Quick Documentation on namespace [\#2119](https://github.com/cursive-ide/cursive/issues/2119)
-- Deps integration should warn if a selected alias isn't present in the project [\#2112](https://github.com/cursive-ide/cursive/issues/2112)
-- Cursive is incompatible with IntelliJ IDEA 2019.1 (JetBrains Runtime 11) EAP  [\#2110](https://github.com/cursive-ide/cursive/issues/2110)
-- Support IntelliJ IDEA 2019.1 EAP [\#2104](https://github.com/cursive-ide/cursive/issues/2104)
-- Showing full namespace in autocomplete of prefixed namespaced keywords [\#2093](https://github.com/cursive-ide/cursive/issues/2093)
-
-### Changed
-
-- Support leiningen versions > 2.8.1 [\#2120](https://github.com/cursive-ide/cursive/issues/2120)
-- Upgrade nREPL [\#2102](https://github.com/cursive-ide/cursive/issues/2102)
-- Variable names are altered in the debugger [\#311](https://github.com/cursive-ide/cursive/issues/311)
-
-### Fixed
-
-- Clojure CLI tools 1.10.0.442 breaks gitlibs and local roots in Cursive [\#2138](https://github.com/cursive-ide/cursive/issues/2138)
-- Incorrect CachedValue use exceptions [\#2118](https://github.com/cursive-ide/cursive/issues/2118)
-- Deps support cannot be configured to use tools.deps directly from the project import wizard [\#2117](https://github.com/cursive-ide/cursive/issues/2117)
-- Failure when :local/root in deps.edn is relative path [\#2109](https://github.com/cursive-ide/cursive/issues/2109)
-- Cursive doesn't set the `clojure.libfile` system property [\#2108](https://github.com/cursive-ide/cursive/issues/2108)
-- "Evaluate Expression" hangs on Clojure 1.10 [\#2099](https://github.com/cursive-ide/cursive/issues/2099)
-- Dependency cycle for clj-pdf - Curive 1.8.0 IntelliJ 2018.2 and 2018.3 [\#2094](https://github.com/cursive-ide/cursive/issues/2094)
-- Having tests colocated with source code marks the directory as a test directory [\#2088](https://github.com/cursive-ide/cursive/issues/2088)
-- Exceptions when parsing javascript files [\#2083](https://github.com/cursive-ide/cursive/issues/2083)
-- "Stubs" are generated into `out` directory in project [\#2069](https://github.com/cursive-ide/cursive/issues/2069)
-- Dependency cycle for sente.cljc [\#1868](https://github.com/cursive-ide/cursive/issues/1868)
-- Inline code in deftype-like things cannot be debugged [\#911](https://github.com/cursive-ide/cursive/issues/911)
-
-## 1.8.0 - 2019-12-10
-
-### Added
-
-- Add support for :extend-via-metadata in protocol definitions [\#2085](https://github.com/cursive-ide/cursive/issues/2085)
-- Do not require resolution customisation targets to be present in project [\#2081](https://github.com/cursive-ide/cursive/issues/2081)
-- cljs-out directory should be excluded [\#2080](https://github.com/cursive-ide/cursive/issues/2080)
-- Add support for IntelliJ 2018.3 EAP [\#2046](https://github.com/cursive-ide/cursive/issues/2046)
-- Add autocomplete to deps.edn files [\#2036](https://github.com/cursive-ide/cursive/issues/2036)
-- Allow deps to be added with "Generate..." action [\#2034](https://github.com/cursive-ide/cursive/issues/2034)
-- Request: config to use two semicolons ;; for line comments [\#1983](https://github.com/cursive-ide/cursive/issues/1983)
-- Support for deps.edn [\#1910](https://github.com/cursive-ide/cursive/issues/1910)
-- Add support for macrovich? [\#1847](https://github.com/cursive-ide/cursive/issues/1847)
-- Fuzzy search for keywords [\#1439](https://github.com/cursive-ide/cursive/issues/1439)
-- Feature Request: Folding code and data [\#1269](https://github.com/cursive-ide/cursive/issues/1269)
-- Allow "lein run" option to run a REPL [\#1036](https://github.com/cursive-ide/cursive/issues/1036)
-- Schema defmethod [\#993](https://github.com/cursive-ide/cursive/issues/993)
-
-### Changed
-
-- ns formatting with reader conditionals [\#1014](https://github.com/cursive-ide/cursive/issues/1014)
-
-### Fixed
-
-- Macrovich fix doesn't work for mount because of vendoring [\#2086](https://github.com/cursive-ide/cursive/issues/2086)
-- Resolution cannot be customised from library code [\#2084](https://github.com/cursive-ide/cursive/issues/2084)
-- Cursive doesn't handle namespaced maps in deps.edn files [\#2060](https://github.com/cursive-ide/cursive/issues/2060)
-- Add -r at end of parameters rather than beginning [\#2059](https://github.com/cursive-ide/cursive/issues/2059)
-- macros not always resolved [\#2053](https://github.com/cursive-ide/cursive/issues/2053)
-- Refactoring keywords creates incorrect values [\#2051](https://github.com/cursive-ide/cursive/issues/2051)
-- environment variables defined using environ.core are not propagated to program when using trampoline [\#2050](https://github.com/cursive-ide/cursive/issues/2050)
-- Run configs fail due to proxy exceptions problem [\#2049](https://github.com/cursive-ide/cursive/issues/2049)
-- When starting local REPL types, empty console window is always shown. [\#2031](https://github.com/cursive-ide/cursive/issues/2031)
-- Windows: exception generating stubs when classpath is too long, CreateProcess error=206 [\#2021](https://github.com/cursive-ide/cursive/issues/2021)
-- [tools.deps] timeout for clojure executable when classpath is stale [\#2012](https://github.com/cursive-ide/cursive/issues/2012)
-- deps.edn: Can't read resource from paths entry [\#2010](https://github.com/cursive-ide/cursive/issues/2010)
-- IndexNotReady exception on project open [\#1996](https://github.com/cursive-ide/cursive/issues/1996)
-- "Cannot switch to ClojureScript namespace in Clojure REPL" for cljs > 1.10.63 [\#1993](https://github.com/cursive-ide/cursive/issues/1993)
-- com.intellij.openapi.project.IndexNotReadyException: Please change caller accord [\#1985](https://github.com/cursive-ide/cursive/issues/1985)
-- Symbol resolution doesn't work from definition, only from usage [\#1977](https://github.com/cursive-ide/cursive/issues/1977)
-- [BUG] Reformatting breaks reader conditionals in require form when using parinfer [\#1972](https://github.com/cursive-ide/cursive/issues/1972)
-- Locals clearing setup on REPL start doesn't work with cljs.main [\#1955](https://github.com/cursive-ide/cursive/issues/1955)
-- Keywords suggestion are twisted if two or more project/editors are open simultaneously [\#1581](https://github.com/cursive-ide/cursive/issues/1581)
-- Having trouble with finding relative certificates from project.clj [\#1156](https://github.com/cursive-ide/cursive/issues/1156)
-- Hangs on REPL Start: Error when starting java process due to length of classpath [\#1150](https://github.com/cursive-ide/cursive/issues/1150)
-- StackOverflowError in CLJS code [\#929](https://github.com/cursive-ide/cursive/issues/929)
-- ToolWindow icons should be 13x13 [\#456](https://github.com/cursive-ide/cursive/issues/456)
 
