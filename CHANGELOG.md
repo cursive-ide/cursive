@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.2-eap2 - 2022-01-26
+
+### Added
+
+- Implement "Optimize Imports" feature [\#1197](https://github.com/cursive-ide/cursive/issues/1197)
+
+### Fixed
+
+- When the test runner shows diffs between multiline strings, only the first line is shown [\#2641](https://github.com/cursive-ide/cursive/issues/2641)
+- Test failures not detected when using test runner [\#2638](https://github.com/cursive-ide/cursive/issues/2638)
+- Autocomplete of field removes dot [\#1096](https://github.com/cursive-ide/cursive/issues/1096)
+
 ## 1.12.2-eap1 - 2021-12-23
 
 ### Added
