@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.2-eap3 - 2022-01-29
+
+### Added
+
+- Cursive plugin doesn't work with Intellij IDEA 2022.1 EAP [\#2642](https://github.com/cursive-ide/cursive/issues/2642)
+
 ## 1.12.2-eap2 - 2022-01-26
 
 ### Added
