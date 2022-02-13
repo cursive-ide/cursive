@@ -6,6 +6,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ## 1.12.2-eap4 - 2022-02-13
 
+### Added
+
+- Highlight a ":require" entry with ":refer" as unused [\#2427](https://github.com/cursive-ide/cursive/issues/2427)
+- [0.1.42] Unused Requirements - Unused Alias [\#629](https://github.com/cursive-ide/cursive/issues/629)
+- Identify unused namespaces (via import or require) - 0.1.04 [\#75](https://github.com/cursive-ide/cursive/issues/75)
+
 ### Fixed
 
 - Exception compiling projects with JVM versions < 11 [\#2652](https://github.com/cursive-ide/cursive/issues/2652)
@@ -16,6 +22,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 ### Added
 
 - Cursive plugin doesn't work with Intellij IDEA 2022.1 EAP [\#2642](https://github.com/cursive-ide/cursive/issues/2642)
+- Suggestion - Organize (ns) - 0.1.04 [\#77](https://github.com/cursive-ide/cursive/issues/77)
 
 ## 1.12.2-eap2 - 2022-01-26
 
