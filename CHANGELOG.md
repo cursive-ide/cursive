@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.2-eap4 - 2022-02-13
+
+### Fixed
+
+- Exception compiling projects with JVM versions < 11 [\#2652](https://github.com/cursive-ide/cursive/issues/2652)
+- Cursive occasionally excludes entire project [\#2648](https://github.com/cursive-ide/cursive/issues/2648)
+
 ## 1.12.2-eap3 - 2022-01-29
 
 ### Added
