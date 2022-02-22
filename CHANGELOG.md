@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.2-eap5 - 2022-02-22
+
+### Fixed
+
+- Could not create shim [\#2647](https://github.com/cursive-ide/cursive/issues/2647)
+
 ## 1.12.2-eap4 - 2022-02-13
 
 ### Added
