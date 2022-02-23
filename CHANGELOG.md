@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.2-eap6 - 2022-02-23
+
+### Fixed
+
+- "Optimize imports" removes JS file requires [\#2659](https://github.com/cursive-ide/cursive/issues/2659)
+
 ## 1.12.2-eap5 - 2022-02-22
 
 ### Fixed
