@@ -4,60 +4,28 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.12.2-eap6 - 2022-02-23
-
-### Fixed
-
-- "Optimize imports" removes JS file requires [\#2659](https://github.com/cursive-ide/cursive/issues/2659)
-
-## 1.12.2-eap5 - 2022-02-22
-
-### Fixed
-
-- Could not create shim [\#2647](https://github.com/cursive-ide/cursive/issues/2647)
-
-## 1.12.2-eap4 - 2022-02-13
-
-### Added
-
-- Highlight a ":require" entry with ":refer" as unused [\#2427](https://github.com/cursive-ide/cursive/issues/2427)
-- [0.1.42] Unused Requirements - Unused Alias [\#629](https://github.com/cursive-ide/cursive/issues/629)
-- Identify unused namespaces (via import or require) - 0.1.04 [\#75](https://github.com/cursive-ide/cursive/issues/75)
-
-### Fixed
-
-- Exception compiling projects with JVM versions < 11 [\#2652](https://github.com/cursive-ide/cursive/issues/2652)
-- Cursive occasionally excludes entire project [\#2648](https://github.com/cursive-ide/cursive/issues/2648)
-
-## 1.12.2-eap3 - 2022-01-29
+## 1.12.2 - 2022-04-13
 
 ### Added
 
 - Cursive plugin doesn't work with Intellij IDEA 2022.1 EAP [\#2642](https://github.com/cursive-ide/cursive/issues/2642)
-- Suggestion - Organize (ns) - 0.1.04 [\#77](https://github.com/cursive-ide/cursive/issues/77)
-
-## 1.12.2-eap2 - 2022-01-26
-
-### Added
-
-- Implement "Optimize Imports" feature [\#1197](https://github.com/cursive-ide/cursive/issues/1197)
-
-### Fixed
-
-- When the test runner shows diffs between multiline strings, only the first line is shown [\#2641](https://github.com/cursive-ide/cursive/issues/2641)
-- Test failures not detected when using test runner [\#2638](https://github.com/cursive-ide/cursive/issues/2638)
-- Autocomplete of field removes dot [\#1096](https://github.com/cursive-ide/cursive/issues/1096)
-
-## 1.12.2-eap1 - 2021-12-23
-
-### Added
-
+- Multiline TODO matchers would be nice [\#2524](https://github.com/cursive-ide/cursive/issues/2524)
+- Highlight a ":require" entry with ":refer" as unused [\#2427](https://github.com/cursive-ide/cursive/issues/2427)
 - Trigger Visual Diff from REPL [\#2128](https://github.com/cursive-ide/cursive/issues/2128)
+- Implement "Optimize Imports" feature [\#1197](https://github.com/cursive-ide/cursive/issues/1197)
+- [0.1.42] Unused Requirements - Unused Alias [\#629](https://github.com/cursive-ide/cursive/issues/629)
+- Suggestion - Organize (ns) - 0.1.04 [\#77](https://github.com/cursive-ide/cursive/issues/77)
+- Identify unused namespaces (via import or require) - 0.1.04 [\#75](https://github.com/cursive-ide/cursive/issues/75)
 
 ### Fixed
 
+- Cursive occasionally excludes entire project [\#2648](https://github.com/cursive-ide/cursive/issues/2648)
+- Could not create shim [\#2647](https://github.com/cursive-ide/cursive/issues/2647)
 - Running tests with Leiningen results in exception [\#2621](https://github.com/cursive-ide/cursive/issues/2621)
 - REPL history move commands are broken in Cursive 1.12.0 & 1.12.1 [\#2620](https://github.com/cursive-ide/cursive/issues/2620)
+- Code completion doesn't work with renamed, referred vars [\#1544](https://github.com/cursive-ide/cursive/issues/1544)
+- Autocomplete of field removes dot [\#1096](https://github.com/cursive-ide/cursive/issues/1096)
+- alias marked as unused but it is used [\#638](https://github.com/cursive-ide/cursive/issues/638)
 
 ## 1.12.1 - 2021-11-30
 
@@ -252,33 +220,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Code Evaluation Tool not working on version 1.9.1-2019.3 [\#2345](https://github.com/cursive-ide/cursive/issues/2345)
 - "Show usages" dialog not appearing for namespaced keywords [\#2233](https://github.com/cursive-ide/cursive/issues/2233)
 - Jump to declaration doesnt work with defonce [\#1069](https://github.com/cursive-ide/cursive/issues/1069)
-
-## 1.9.1 - 2020-03-20
-
-### Added
-
-- Support 2020.1 EAP [\#2304](https://github.com/cursive-ide/cursive/issues/2304)
-- Mark deprecated vars/methods [\#2029](https://github.com/cursive-ide/cursive/issues/2029)
-
-### Fixed
-
-- Remote REPL config shows no error when nREPL port cannot be obtained from file [\#2334](https://github.com/cursive-ide/cursive/issues/2334)
-- Classpath isn't updated after REPL restart (need to reopen the project) [\#2331](https://github.com/cursive-ide/cursive/issues/2331)
-- Custom REPL Commands stopped working [\#2319](https://github.com/cursive-ide/cursive/issues/2319)
-- Error when using Rainbow parens on 1.9.1-eap6 [\#2318](https://github.com/cursive-ide/cursive/issues/2318)
-- Cannot create listener cursive.notifications.LeiningenProjectNotificationProvider [\#2315](https://github.com/cursive-ide/cursive/issues/2315)
-- When a remote nREPL REPL cannot connect, an NPE is shown [\#2313](https://github.com/cursive-ide/cursive/issues/2313)
-- Remote REPL config doesn't persist nREPL port module [\#2311](https://github.com/cursive-ide/cursive/issues/2311)
-- Issue importing Java classes in 1.9.1-eap4 [\#2310](https://github.com/cursive-ide/cursive/issues/2310)
-- Problem running REPL configurations on 2020.1 [\#2308](https://github.com/cursive-ide/cursive/issues/2308)
-- unable to change leiningen version [\#2307](https://github.com/cursive-ide/cursive/issues/2307)
-- Docstrings have their initial indent removed [\#2300](https://github.com/cursive-ide/cursive/issues/2300)
-- ClojureDocs examples are not correctly escaped [\#2299](https://github.com/cursive-ide/cursive/issues/2299)
-- Remote socket REPL doesn't handle errors correctly [\#2298](https://github.com/cursive-ide/cursive/issues/2298)
-- CLJC doc lookup fix doesn't work when caret is at end of element [\#2288](https://github.com/cursive-ide/cursive/issues/2288)
-- When converting file type using File | Convert To..., symbols are unresolved [\#2287](https://github.com/cursive-ide/cursive/issues/2287)
-- Incorrect REPL NS handling when using "Send form to REPL" variants [\#2286](https://github.com/cursive-ide/cursive/issues/2286)
-- Non-static inner classes fail to recognize constructor [\#2277](https://github.com/cursive-ide/cursive/issues/2277)
-- java.util.IllegalFormatConversionException: d != java.lang.String on IntelliJ 2019.2.4/2019.3 + cursive 1.9.0-2019.2/2019.3 [\#2276](https://github.com/cursive-ide/cursive/issues/2276)
-- Quick doc/definition popup empty in .cljc files when ClojureScript dependency present [\#1645](https://github.com/cursive-ide/cursive/issues/1645)
 
