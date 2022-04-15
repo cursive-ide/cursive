@@ -4,6 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.3-eap1 - 2022-04-15
+
+### Changed
+
+- Create src dir when creating new deps project [\#2675](https://github.com/cursive-ide/cursive/issues/2675)
+
+### Fixed
+
+- Cursive 1.12.2 doesn't handle multiple requires of same ns correctly [\#2678](https://github.com/cursive-ide/cursive/issues/2678)
+- Nested requires not resolved in 1.12.2-2022.1 / IntelliJ IDEA 2022.1 [\#2676](https://github.com/cursive-ide/cursive/issues/2676)
+- spec alias shows as not being used when you import it via clojure ns in clojurescript [\#2673](https://github.com/cursive-ide/cursive/issues/2673)
+- Babashka REPL environment vars not getting set [\#2670](https://github.com/cursive-ide/cursive/issues/2670)
+- Run configuration with deps.edn alias fails [\#2617](https://github.com/cursive-ide/cursive/issues/2617)
+- Alias :main-opts not respected for nREPL configuration [\#2322](https://github.com/cursive-ide/cursive/issues/2322)
+
 ## 1.12.2 - 2022-04-13
 
 ### Added
