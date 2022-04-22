@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.3-eap2 - 2022-04-22
+
+### Changed
+
+- Make Cursive more forgiving in cases of unresolved symbols [\#2682](https://github.com/cursive-ide/cursive/issues/2682)
+
+### Fixed
+
+- Symbol resolution customisation bug [\#2683](https://github.com/cursive-ide/cursive/issues/2683)
+
 ## 1.12.3-eap1 - 2022-04-15
 
 ### Changed
