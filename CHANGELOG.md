@@ -4,24 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.12.3-eap2 - 2022-04-22
+## 1.12.3 - 2022-04-28
 
 ### Changed
 
 - Make Cursive more forgiving in cases of unresolved symbols [\#2682](https://github.com/cursive-ide/cursive/issues/2682)
-
-### Fixed
-
-- Symbol resolution customisation bug [\#2683](https://github.com/cursive-ide/cursive/issues/2683)
-
-## 1.12.3-eap1 - 2022-04-15
-
-### Changed
-
 - Create src dir when creating new deps project [\#2675](https://github.com/cursive-ide/cursive/issues/2675)
 
 ### Fixed
 
+- Symbol resolution customisation bug [\#2683](https://github.com/cursive-ide/cursive/issues/2683)
 - Cursive 1.12.2 doesn't handle multiple requires of same ns correctly [\#2678](https://github.com/cursive-ide/cursive/issues/2678)
 - Nested requires not resolved in 1.12.2-2022.1 / IntelliJ IDEA 2022.1 [\#2676](https://github.com/cursive-ide/cursive/issues/2676)
 - spec alias shows as not being used when you import it via clojure ns in clojurescript [\#2673](https://github.com/cursive-ide/cursive/issues/2673)
