@@ -4,6 +4,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.4-eap1 - 2022-05-21
+
+### Added
+
+- Add support for 2022.2 [\#2697](https://github.com/cursive-ide/cursive/issues/2697)
+- Identify context from `deftest` and `clojure.test/testing` in assertion failure  [\#2387](https://github.com/cursive-ide/cursive/issues/2387)
+- "Show diff for error" intention [\#2229](https://github.com/cursive-ide/cursive/issues/2229)
+- Better test.check support [\#2170](https://github.com/cursive-ide/cursive/issues/2170)
+- Add feature to run test.check defspec under caret [\#632](https://github.com/cursive-ide/cursive/issues/632)
+
+### Changed
+
+- Allow configuring AOT compilation to skip tests [\#2685](https://github.com/cursive-ide/cursive/issues/2685)
+
+### Fixed
+
+- Multiple options not supported when creating lein projects from templates [\#2692](https://github.com/cursive-ide/cursive/issues/2692)
+- Cannot load file in REPL with an :as-alias require that would be a cyclic dependency if it were loaded [\#2690](https://github.com/cursive-ide/cursive/issues/2690)
+- Compiler error messages not correctly reported [\#2684](https://github.com/cursive-ide/cursive/issues/2684)
+- deps alias with segments in namespace provokes failure [\#2536](https://github.com/cursive-ide/cursive/issues/2536)
+- Displaying a very large diff for failed test completely hangs IDEA [\#2396](https://github.com/cursive-ide/cursive/issues/2396)
+- Large test result previews don't display [\#2032](https://github.com/cursive-ide/cursive/issues/2032)
+- Limiting output in test tooltip/test results [\#1680](https://github.com/cursive-ide/cursive/issues/1680)
+- REPL logs error when running defspec [\#1525](https://github.com/cursive-ide/cursive/issues/1525)
+
 ## 1.12.3 - 2022-04-28
 
 ### Changed
