@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.4-eap2 - 2022-05-30
+
+### Added
+
+- Sidebar color display, like IntelliJ does for other languages [\#1844](https://github.com/cursive-ide/cursive/issues/1844)
+
+### Fixed
+
+- Exceptions are not reported correctly in 1.12.4-eap1 [\#2700](https://github.com/cursive-ide/cursive/issues/2700)
+- Find usages of in other modules in project [\#2660](https://github.com/cursive-ide/cursive/issues/2660)
+- ANSI color escapes can escape interpretation [\#2357](https://github.com/cursive-ide/cursive/issues/2357)
+
 ## 1.12.4-eap1 - 2022-05-21
 
 ### Added
