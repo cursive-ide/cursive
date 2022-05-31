@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.4-eap3 - 2022-05-31
+
+### Fixed
+
+- Error output when running tests from different editor in 1.12.4 EAP series [\#2703](https://github.com/cursive-ide/cursive/issues/2703)
+- When printing large ANSI-formatted output, items are sometimes duplicated [\#2702](https://github.com/cursive-ide/cursive/issues/2702)
+- Exception traces are sometimes reported in incorrect file in 1.12.4-eap2 [\#2701](https://github.com/cursive-ide/cursive/issues/2701)
+
 ## 1.12.4-eap2 - 2022-05-30
 
 ### Added
