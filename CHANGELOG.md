@@ -4,27 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.12.4-eap3 - 2022-05-31
-
-### Fixed
-
-- Error output when running tests from different editor in 1.12.4 EAP series [\#2703](https://github.com/cursive-ide/cursive/issues/2703)
-- When printing large ANSI-formatted output, items are sometimes duplicated [\#2702](https://github.com/cursive-ide/cursive/issues/2702)
-- Exception traces are sometimes reported in incorrect file in 1.12.4-eap2 [\#2701](https://github.com/cursive-ide/cursive/issues/2701)
-
-## 1.12.4-eap2 - 2022-05-30
-
-### Added
-
-- Sidebar color display, like IntelliJ does for other languages [\#1844](https://github.com/cursive-ide/cursive/issues/1844)
-
-### Fixed
-
-- Exceptions are not reported correctly in 1.12.4-eap1 [\#2700](https://github.com/cursive-ide/cursive/issues/2700)
-- Find usages of in other modules in project [\#2660](https://github.com/cursive-ide/cursive/issues/2660)
-- ANSI color escapes can escape interpretation [\#2357](https://github.com/cursive-ide/cursive/issues/2357)
-
-## 1.12.4-eap1 - 2022-05-21
+## 1.12.4 - 2022-06-03
 
 ### Added
 
@@ -32,6 +12,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Identify context from `deftest` and `clojure.test/testing` in assertion failure  [\#2387](https://github.com/cursive-ide/cursive/issues/2387)
 - "Show diff for error" intention [\#2229](https://github.com/cursive-ide/cursive/issues/2229)
 - Better test.check support [\#2170](https://github.com/cursive-ide/cursive/issues/2170)
+- Sidebar color display, like IntelliJ does for other languages [\#1844](https://github.com/cursive-ide/cursive/issues/1844)
 - Add feature to run test.check defspec under caret [\#632](https://github.com/cursive-ide/cursive/issues/632)
 
 ### Changed
@@ -40,11 +21,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ### Fixed
 
+- When printing large ANSI-formatted output, items are sometimes duplicated [\#2702](https://github.com/cursive-ide/cursive/issues/2702)
 - Multiple options not supported when creating lein projects from templates [\#2692](https://github.com/cursive-ide/cursive/issues/2692)
 - Cannot load file in REPL with an :as-alias require that would be a cyclic dependency if it were loaded [\#2690](https://github.com/cursive-ide/cursive/issues/2690)
 - Compiler error messages not correctly reported [\#2684](https://github.com/cursive-ide/cursive/issues/2684)
+- Find usages of in other modules in project [\#2660](https://github.com/cursive-ide/cursive/issues/2660)
 - deps alias with segments in namespace provokes failure [\#2536](https://github.com/cursive-ide/cursive/issues/2536)
 - Displaying a very large diff for failed test completely hangs IDEA [\#2396](https://github.com/cursive-ide/cursive/issues/2396)
+- ANSI color escapes can escape interpretation [\#2357](https://github.com/cursive-ide/cursive/issues/2357)
 - Large test result previews don't display [\#2032](https://github.com/cursive-ide/cursive/issues/2032)
 - Limiting output in test tooltip/test results [\#1680](https://github.com/cursive-ide/cursive/issues/1680)
 - REPL logs error when running defspec [\#1525](https://github.com/cursive-ide/cursive/issues/1525)
