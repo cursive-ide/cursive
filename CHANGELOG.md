@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.5-eap1 - 2022-08-03
+
+### Added
+
+- Add code author inlay hints [\#2698](https://github.com/cursive-ide/cursive/issues/2698)
+- Add option "Always generate stubs (for this project|for all projects)" [\#2556](https://github.com/cursive-ide/cursive/issues/2556)
+- Keep :require sorted [\#2002](https://github.com/cursive-ide/cursive/issues/2002)
+
+### Changed
+
+- Clean up temporary system deps files [\#2719](https://github.com/cursive-ide/cursive/issues/2719)
+- Add ability for socket REPL to pick up the port from a file [\#2695](https://github.com/cursive-ide/cursive/issues/2695)
+- Output to stderr when generating stubs is treated as an error [\#2654](https://github.com/cursive-ide/cursive/issues/2654)
+
+### Fixed
+
+- Error handling response - class java.lang.IllegalArgumentException: Argument for @NotNull parameter 'name' of com/intellij/psi/search/FilenameIndex.getVirtualFilesByName must not be null [\#2712](https://github.com/cursive-ide/cursive/issues/2712)
+
 ## 1.12.4 - 2022-06-03
 
 ### Added
@@ -223,47 +241,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 ### Removed
 
 - Remove Deps migrations from older project format. [\#2446](https://github.com/cursive-ide/cursive/issues/2446)
-
-## 1.9.3 - 2020-07-30
-
-### Added
-
-- Show ClojureDocs examples for CLJS too [\#2292](https://github.com/cursive-ide/cursive/issues/2292)
-
-### Changed
-
-- Parinfer sometimes unbalances delimiters when editing in middle of line [\#2237](https://github.com/cursive-ide/cursive/issues/2237)
-
-### Fixed
-
-- Fix deps API breakage [\#2403](https://github.com/cursive-ide/cursive/issues/2403)
-
-## 1.9.2 - 2020-07-24
-
-### Added
-
-- Support for Leiningen 2.9.3? [\#2343](https://github.com/cursive-ide/cursive/issues/2343)
-- Configuriable "Use Leiningen REPL port" Option for remote nREPL [\#2216](https://github.com/cursive-ide/cursive/issues/2216)
-- Add action to interrupt REPL printing [\#2100](https://github.com/cursive-ide/cursive/issues/2100)
-- Add def behaviour to `goog-define` [\#1067](https://github.com/cursive-ide/cursive/issues/1067)
-
-### Changed
-
-- Show public/private status of functions and vars in autocomplete [\#1991](https://github.com/cursive-ide/cursive/issues/1991)
-
-### Fixed
-
-- Go to definition not working on 'Symbol Resolution' symbols in 1.9.2-eap-6-2020.2 [\#2389](https://github.com/cursive-ide/cursive/issues/2389)
-- Cursive throws error when handling nREPL :error status [\#2374](https://github.com/cursive-ide/cursive/issues/2374)
-- Deps files with local/root dependency cycles cause OOM errors [\#2371](https://github.com/cursive-ide/cursive/issues/2371)
-- Add as Leiningen/Deps Project actions broken [\#2366](https://github.com/cursive-ide/cursive/issues/2366)
-- Wrong project name when import from deps [\#2363](https://github.com/cursive-ide/cursive/issues/2363)
-- Cursive is unable to understand project when deps.edn is a symlink [\#2360](https://github.com/cursive-ide/cursive/issues/2360)
-- IDE becomes unusable after Deps project import [\#2355](https://github.com/cursive-ide/cursive/issues/2355)
-- Under 2020.1, the structural editing widget has disappeared [\#2349](https://github.com/cursive-ide/cursive/issues/2349)
-- Debugger no longer shows values of lazy sequences [\#2348](https://github.com/cursive-ide/cursive/issues/2348)
-- leiningen 2.7.1 could not create shim [\#2347](https://github.com/cursive-ide/cursive/issues/2347)
-- Code Evaluation Tool not working on version 1.9.1-2019.3 [\#2345](https://github.com/cursive-ide/cursive/issues/2345)
-- "Show usages" dialog not appearing for namespaced keywords [\#2233](https://github.com/cursive-ide/cursive/issues/2233)
-- Jump to declaration doesnt work with defonce [\#1069](https://github.com/cursive-ide/cursive/issues/1069)
 
