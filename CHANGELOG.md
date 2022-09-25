@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.5-eap2 - 2022-09-25
+
+### Added
+
+- Add support for IntelliJ 2022.3 EAP [\#2733](https://github.com/cursive-ide/cursive/issues/2733)
+
+### Fixed
+
+- Deftype method implementations show false errors in CLJC files when method arity over 1 [\#2346](https://github.com/cursive-ide/cursive/issues/2346)
+- Invalid arity detection for protocol implementation [\#1431](https://github.com/cursive-ide/cursive/issues/1431)
+
 ## 1.12.5-eap1 - 2022-08-03
 
 ### Added
