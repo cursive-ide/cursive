@@ -4,21 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.12.5-eap2 - 2022-09-25
+## 1.12.5 - 2022-11-30
 
 ### Added
 
 - Add support for IntelliJ 2022.3 EAP [\#2733](https://github.com/cursive-ide/cursive/issues/2733)
-
-### Fixed
-
-- Deftype method implementations show false errors in CLJC files when method arity over 1 [\#2346](https://github.com/cursive-ide/cursive/issues/2346)
-- Invalid arity detection for protocol implementation [\#1431](https://github.com/cursive-ide/cursive/issues/1431)
-
-## 1.12.5-eap1 - 2022-08-03
-
-### Added
-
 - Add code author inlay hints [\#2698](https://github.com/cursive-ide/cursive/issues/2698)
 - Add option "Always generate stubs (for this project|for all projects)" [\#2556](https://github.com/cursive-ide/cursive/issues/2556)
 - Keep :require sorted [\#2002](https://github.com/cursive-ide/cursive/issues/2002)
@@ -32,6 +22,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 ### Fixed
 
 - Error handling response - class java.lang.IllegalArgumentException: Argument for @NotNull parameter 'name' of com/intellij/psi/search/FilenameIndex.getVirtualFilesByName must not be null [\#2712](https://github.com/cursive-ide/cursive/issues/2712)
+- Deftype method implementations show false errors in CLJC files when method arity over 1 [\#2346](https://github.com/cursive-ide/cursive/issues/2346)
+- Invalid arity detection for protocol implementation [\#1431](https://github.com/cursive-ide/cursive/issues/1431)
 
 ## 1.12.4 - 2022-06-03
 
@@ -219,37 +211,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - "Show usages" dialog not appearing again for namespaced keywords [\#2457](https://github.com/cursive-ide/cursive/issues/2457)
 - ClojureDocs aren't shown for CLJS files [\#2392](https://github.com/cursive-ide/cursive/issues/2392)
 - Clojure scratch files cannot be loaded into REPL due to file extension [\#1528](https://github.com/cursive-ide/cursive/issues/1528)
-
-## 1.9.4 - 2020-10-20
-
-### Added
-
-- Add new option to format all forms as Indent Only [\#2443](https://github.com/cursive-ide/cursive/issues/2443)
-- Cursive will stop working with Intellij 2020.3 EAP [\#2438](https://github.com/cursive-ide/cursive/issues/2438)
-- Add support for with-test [\#2423](https://github.com/cursive-ide/cursive/issues/2423)
-- Add Resolve as: none option to form resolution customisation [\#2417](https://github.com/cursive-ide/cursive/issues/2417)
-- Stubs for Datomic dev-local [\#2397](https://github.com/cursive-ide/cursive/issues/2397)
-- Support for Lokeh/helix using stub generation [\#2330](https://github.com/cursive-ide/cursive/issues/2330)
-
-### Changed
-
-- Allow configuring parinfer bracket open behaviour [\#2432](https://github.com/cursive-ide/cursive/issues/2432)
-- Config option to disable hiccup prompts [\#2416](https://github.com/cursive-ide/cursive/issues/2416)
-- Deps artifact completion should not shorten artifacts where group is equal to artifact [\#2408](https://github.com/cursive-ide/cursive/issues/2408)
-- deps.edn alias support in :paths  [\#2404](https://github.com/cursive-ide/cursive/issues/2404)
-- Structural selection in let [\#2258](https://github.com/cursive-ide/cursive/issues/2258)
-- Hiccup conversion uses the class shortcut  [\#2184](https://github.com/cursive-ide/cursive/issues/2184)
-
-### Fixed
-
-- Fix Assert failed: port errors when starting nREPL [\#2440](https://github.com/cursive-ide/cursive/issues/2440)
-- core.async/<!! & core.async/>!! not resolveable in 1.9.4-eap5-2020.2 w/ tools-deps [\#2439](https://github.com/cursive-ide/cursive/issues/2439)
-- HTML->Hiccup conversion producing invalid code [\#2420](https://github.com/cursive-ide/cursive/issues/2420)
-- Socket REPL doesn't flush consistently [\#2415](https://github.com/cursive-ide/cursive/issues/2415)
-- Deps project resolution broken in 1.10.1.624 [\#2410](https://github.com/cursive-ide/cursive/issues/2410)
-- Dependency completion in deps files broken in 1.9.2 [\#2393](https://github.com/cursive-ide/cursive/issues/2393)
-
-### Removed
-
-- Remove Deps migrations from older project format. [\#2446](https://github.com/cursive-ide/cursive/issues/2446)
 
