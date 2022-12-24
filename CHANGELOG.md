@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.7-eap1 - 2022-12-24
+
+### Fixed
+
+- Allow selecting up to date Leiningen versions [\#2732](https://github.com/cursive-ide/cursive/issues/2732)
+
 ## 1.12.6 - 2022-12-14
 
 ### Fixed
