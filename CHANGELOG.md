@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.8-eap1 - 2023-02-03
+
+### Added
+
+- Add support for IntelliJ 2023.1 EAP [\#2764](https://github.com/cursive-ide/cursive/issues/2764)
+- Execute REPL command in current file namespace [\#1756](https://github.com/cursive-ide/cursive/issues/1756)
+- "Clear REPL" before executing a REPL command  [\#1459](https://github.com/cursive-ide/cursive/issues/1459)
+
+### Changed
+
+- Improve ordering of entries in Edit REPL Commands window [\#2622](https://github.com/cursive-ide/cursive/issues/2622)
+- Edit REPL Commands window should have + button to create a REPL command [\#1415](https://github.com/cursive-ide/cursive/issues/1415)
+- Missing command? [\#843](https://github.com/cursive-ide/cursive/issues/843)
+
+### Fixed
+
+- Incorrect indentation when adding new require clauses to ns form [\#2763](https://github.com/cursive-ide/cursive/issues/2763)
+
 ## 1.12.7 - 2023-01-06
 
 ### Fixed
