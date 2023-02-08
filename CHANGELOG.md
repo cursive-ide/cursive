@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.8-eap2 - 2023-02-08
+
+### Added
+
+- "Reload all from disk" after REPL command  [\#2597](https://github.com/cursive-ide/cursive/issues/2597)
+- Support inline output replace on REPL commands [\#1755](https://github.com/cursive-ide/cursive/issues/1755)
+
+### Changed
+
+- REPL commands get added to REPL history [\#1990](https://github.com/cursive-ide/cursive/issues/1990)
+
 ## 1.12.8-eap1 - 2023-02-03
 
 ### Added
