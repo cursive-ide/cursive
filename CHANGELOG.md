@@ -4,6 +4,20 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.8-eap3 - 2023-03-01
+
+### Added
+
+- Support Evaluating Bookmarked Forms [\#2623](https://github.com/cursive-ide/cursive/issues/2623)
+- Add ability to delete items from REPL history [\#1383](https://github.com/cursive-ide/cursive/issues/1383)
+
+### Fixed
+
+- Sometimes unable to view diff on test failure [\#2723](https://github.com/cursive-ide/cursive/issues/2723)
+- REPL History window opens on secondary monitor [\#2294](https://github.com/cursive-ide/cursive/issues/2294)
+- REPL history hangs Intellij [\#1325](https://github.com/cursive-ide/cursive/issues/1325)
+- REPL Search History Renders Incorrectly [\#971](https://github.com/cursive-ide/cursive/issues/971)
+
 ## 1.12.8-eap2 - 2023-02-08
 
 ### Added
@@ -213,26 +227,4 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - New Clojurescript test-namespace doesn't compile because of `:refer :all` [\#2508](https://github.com/cursive-ide/cursive/issues/2508)
 - Cursive crashes trying to open a project with a :keyword as the project.clj version [\#1999](https://github.com/cursive-ide/cursive/issues/1999)
 - (ns ... (:require [... :rename {a b}]) not handled [\#394](https://github.com/cursive-ide/cursive/issues/394)
-
-## 1.10.1 - 2021-03-01
-
-### Added
-
-- Cursive will stop working with Intellij 2021.1 EAP [\#2491](https://github.com/cursive-ide/cursive/issues/2491)
-- Passing the line number in REPL commands [\#2488](https://github.com/cursive-ide/cursive/issues/2488)
-
-### Changed
-
-- Cursive doesn't provide version completion for :replace-deps [\#2490](https://github.com/cursive-ide/cursive/issues/2490)
-- Structural navigation doesn't work as expected within strings and comments [\#2097](https://github.com/cursive-ide/cursive/issues/2097)
-
-### Fixed
-
-- Using latest tools.deps.alpha CLI breaks Cursive [\#2511](https://github.com/cursive-ide/cursive/issues/2511)
-- Can't start REPL with 2019.3 [\#2504](https://github.com/cursive-ide/cursive/issues/2504)
-- Cursive fails at startup and locks IDE under 2021.1 EAP 2 [\#2502](https://github.com/cursive-ide/cursive/issues/2502)
-- Cursive Run/Debug Configuration forgets the "Specify custom port file" setting [\#2498](https://github.com/cursive-ide/cursive/issues/2498)
-- Importing Metabase project results in bogus "profiles" [\#2487](https://github.com/cursive-ide/cursive/issues/2487)
-- Refactor > rename broken in 1.10.0-2020.3 [\#2473](https://github.com/cursive-ide/cursive/issues/2473)
-- Unable to add Leiningen Configuration  [\#2471](https://github.com/cursive-ide/cursive/issues/2471)
 
