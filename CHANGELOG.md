@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.8-eap4 - 2023-03-13
+
+### Fixed
+
+- REPL does not automatically select .shadow-cljs/nrepl.port for nREPL connection type [\#2759](https://github.com/cursive-ide/cursive/issues/2759)
+
 ## 1.12.8-eap3 - 2023-03-01
 
 ### Added
