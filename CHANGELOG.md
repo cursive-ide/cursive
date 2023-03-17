@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.12.8-eap5 - 2023-03-17
+
+### Fixed
+
+- :as-alias doesn't correctly prevent cyclic dependency warnings in CLJS [\#2782](https://github.com/cursive-ide/cursive/issues/2782)
+
 ## 1.12.8-eap4 - 2023-03-13
 
 ### Fixed
