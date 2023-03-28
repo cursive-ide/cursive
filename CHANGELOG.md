@@ -4,60 +4,34 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.12.8-eap5 - 2023-03-17
-
-### Fixed
-
-- :as-alias doesn't correctly prevent cyclic dependency warnings in CLJS [\#2782](https://github.com/cursive-ide/cursive/issues/2782)
-
-## 1.12.8-eap4 - 2023-03-13
-
-### Fixed
-
-- REPL does not automatically select .shadow-cljs/nrepl.port for nREPL connection type [\#2759](https://github.com/cursive-ide/cursive/issues/2759)
-
-## 1.12.8-eap3 - 2023-03-01
-
-### Added
-
-- Support Evaluating Bookmarked Forms [\#2623](https://github.com/cursive-ide/cursive/issues/2623)
-- Add ability to delete items from REPL history [\#1383](https://github.com/cursive-ide/cursive/issues/1383)
-
-### Fixed
-
-- Sometimes unable to view diff on test failure [\#2723](https://github.com/cursive-ide/cursive/issues/2723)
-- REPL History window opens on secondary monitor [\#2294](https://github.com/cursive-ide/cursive/issues/2294)
-- REPL history hangs Intellij [\#1325](https://github.com/cursive-ide/cursive/issues/1325)
-- REPL Search History Renders Incorrectly [\#971](https://github.com/cursive-ide/cursive/issues/971)
-
-## 1.12.8-eap2 - 2023-02-08
-
-### Added
-
-- "Reload all from disk" after REPL command  [\#2597](https://github.com/cursive-ide/cursive/issues/2597)
-- Support inline output replace on REPL commands [\#1755](https://github.com/cursive-ide/cursive/issues/1755)
-
-### Changed
-
-- REPL commands get added to REPL history [\#1990](https://github.com/cursive-ide/cursive/issues/1990)
-
-## 1.12.8-eap1 - 2023-02-03
+## 1.12.8 - 2023-03-28
 
 ### Added
 
 - Add support for IntelliJ 2023.1 EAP [\#2764](https://github.com/cursive-ide/cursive/issues/2764)
+- Support Evaluating Bookmarked Forms [\#2623](https://github.com/cursive-ide/cursive/issues/2623)
+- "Reload all from disk" after REPL command  [\#2597](https://github.com/cursive-ide/cursive/issues/2597)
 - Execute REPL command in current file namespace [\#1756](https://github.com/cursive-ide/cursive/issues/1756)
+- Support inline output replace on REPL commands [\#1755](https://github.com/cursive-ide/cursive/issues/1755)
 - "Clear REPL" before executing a REPL command  [\#1459](https://github.com/cursive-ide/cursive/issues/1459)
+- Add ability to delete items from REPL history [\#1383](https://github.com/cursive-ide/cursive/issues/1383)
 
 ### Changed
 
 - Improve ordering of entries in Edit REPL Commands window [\#2622](https://github.com/cursive-ide/cursive/issues/2622)
+- REPL commands get added to REPL history [\#1990](https://github.com/cursive-ide/cursive/issues/1990)
 - Edit REPL Commands window should have + button to create a REPL command [\#1415](https://github.com/cursive-ide/cursive/issues/1415)
 - Missing command? [\#843](https://github.com/cursive-ide/cursive/issues/843)
 
 ### Fixed
 
+- :as-alias doesn't correctly prevent cyclic dependency warnings in CLJS [\#2782](https://github.com/cursive-ide/cursive/issues/2782)
 - Incorrect indentation when adding new require clauses to ns form [\#2763](https://github.com/cursive-ide/cursive/issues/2763)
+- REPL does not automatically select .shadow-cljs/nrepl.port for nREPL connection type [\#2759](https://github.com/cursive-ide/cursive/issues/2759)
+- Sometimes unable to view diff on test failure [\#2723](https://github.com/cursive-ide/cursive/issues/2723)
+- REPL History window opens on secondary monitor [\#2294](https://github.com/cursive-ide/cursive/issues/2294)
+- REPL history hangs Intellij [\#1325](https://github.com/cursive-ide/cursive/issues/1325)
+- REPL Search History Renders Incorrectly [\#971](https://github.com/cursive-ide/cursive/issues/971)
 
 ## 1.12.7 - 2023-01-06
 
@@ -239,4 +213,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - New Clojurescript test-namespace doesn't compile because of `:refer :all` [\#2508](https://github.com/cursive-ide/cursive/issues/2508)
 - Cursive crashes trying to open a project with a :keyword as the project.clj version [\#1999](https://github.com/cursive-ide/cursive/issues/1999)
 - (ns ... (:require [... :rename {a b}]) not handled [\#394](https://github.com/cursive-ide/cursive/issues/394)
+
+## 1.12 - 2023-03-28
 
