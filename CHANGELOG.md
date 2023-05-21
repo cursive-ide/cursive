@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.0-eap1 - 2023-05-21
+
+### Fixed
+
+- Cursive doesn't resolve deftype fields containing dashes when accessed using field syntax [\#2797](https://github.com/cursive-ide/cursive/issues/2797)
+- Introduce Variable with Parinfer breaks code [\#2786](https://github.com/cursive-ide/cursive/issues/2786)
+- Rename variable with Parinfer breaks code [\#2106](https://github.com/cursive-ide/cursive/issues/2106)
+
 ## 1.12.8 - 2023-03-28
 
 ### Added
@@ -199,20 +207,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - REPL occasionally shows blank tab title [\#2541](https://github.com/cursive-ide/cursive/issues/2541)
 - Bug: doesn't work with relative path in :mvn/local-repo [\#2535](https://github.com/cursive-ide/cursive/issues/2535)
 - [deps.edn] Cursive picks up the wrong version of clojure-tools JAR when there are multiple versions of it under "/usr/local/lib/clojure/libexec" [\#2105](https://github.com/cursive-ide/cursive/issues/2105)
-
-## 1.10.2 - 2021-04-16
-
-### Changed
-
-- Update deps support to pass path to git command-line [\#2525](https://github.com/cursive-ide/cursive/issues/2525)
-- Make structural movement commands work better on strings [\#2523](https://github.com/cursive-ide/cursive/issues/2523)
-
-### Fixed
-
-- Deps import fails when using :default-deps [\#2517](https://github.com/cursive-ide/cursive/issues/2517)
-- New Clojurescript test-namespace doesn't compile because of `:refer :all` [\#2508](https://github.com/cursive-ide/cursive/issues/2508)
-- Cursive crashes trying to open a project with a :keyword as the project.clj version [\#1999](https://github.com/cursive-ide/cursive/issues/1999)
-- (ns ... (:require [... :rename {a b}]) not handled [\#394](https://github.com/cursive-ide/cursive/issues/394)
 
 ## 1.12 - 2023-03-28
 
