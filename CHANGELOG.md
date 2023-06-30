@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.0-eap3 - 2023-06-30
+
+### Fixed
+
+- Problems when generating stubs due to interactions with user.clj [\#2808](https://github.com/cursive-ide/cursive/issues/2808)
+- Exception when using deps under 1.13.0-eap2 [\#2807](https://github.com/cursive-ide/cursive/issues/2807)
+
 ## 1.13.0-eap2 - 2023-06-30
 
 ### Added
