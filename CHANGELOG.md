@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.0-eap2 - 2023-06-30
+
+### Added
+
+- Make URLs in strings clickable [\#2804](https://github.com/cursive-ide/cursive/issues/2804)
+- Allow running tools.build REPLs [\#2653](https://github.com/cursive-ide/cursive/issues/2653)
+- Support adding brick as :extra-deps for a Polylith workspace in development [\#2554](https://github.com/cursive-ide/cursive/issues/2554)
+- deps.edn: add support for alias types other than -A [\#2409](https://github.com/cursive-ide/cursive/issues/2409)
+
+### Fixed
+
+- replace-deps/paths in aliases stopped working around 1.12.3 [\#2689](https://github.com/cursive-ide/cursive/issues/2689)
+
 ## 1.13.0-eap1 - 2023-05-21
 
 ### Fixed
