@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.0-eap4 - 2023-07-01
+
+### Fixed
+
+- LinkageError when using new deps integration [\#2811](https://github.com/cursive-ide/cursive/issues/2811)
+- Exception using new deps integration on Windows [\#2810](https://github.com/cursive-ide/cursive/issues/2810)
+- Error when using new deps integration when deps.clj is not installed [\#2809](https://github.com/cursive-ide/cursive/issues/2809)
+
 ## 1.13.0-eap3 - 2023-06-30
 
 ### Fixed
