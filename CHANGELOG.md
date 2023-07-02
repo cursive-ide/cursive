@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.0-eap5 - 2023-07-02
+
+### Fixed
+
+- LinkageErrors, again [\#2812](https://github.com/cursive-ide/cursive/issues/2812)
+
 ## 1.13.0-eap4 - 2023-07-01
 
 ### Fixed
