@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.0-eap6 - 2023-07-04
+
+### Fixed
+
+- Error resolving dependencies [\#2817](https://github.com/cursive-ide/cursive/issues/2817)
+- Stubs generation doesn't correctly stop when encountering errors [\#2814](https://github.com/cursive-ide/cursive/issues/2814)
+- Commas inserted into alias lists when migrating from old run config format [\#2813](https://github.com/cursive-ide/cursive/issues/2813)
+
 ## 1.13.0-eap5 - 2023-07-02
 
 ### Fixed
