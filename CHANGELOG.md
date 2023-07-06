@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.0-eap7 - 2023-07-06
+
+### Added
+
+- Allow defaulting of modules for run configurations when created from context [\#2818](https://github.com/cursive-ide/cursive/issues/2818)
+- Warn when deps alias selection includes aliases which overwrite other deps [\#2815](https://github.com/cursive-ide/cursive/issues/2815)
+
+### Fixed
+
+- :local/root deps now incorrectly include dependent test sources [\#2816](https://github.com/cursive-ide/cursive/issues/2816)
+
 ## 1.13.0-eap6 - 2023-07-04
 
 ### Fixed
