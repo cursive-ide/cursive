@@ -4,50 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.13.0-eap7 - 2023-07-06
+## 1.13.0 - 2023-07-11
 
 ### Added
 
 - Allow defaulting of modules for run configurations when created from context [\#2818](https://github.com/cursive-ide/cursive/issues/2818)
-- Warn when deps alias selection includes aliases which overwrite other deps [\#2815](https://github.com/cursive-ide/cursive/issues/2815)
-
-### Fixed
-
-- :local/root deps now incorrectly include dependent test sources [\#2816](https://github.com/cursive-ide/cursive/issues/2816)
-
-## 1.13.0-eap6 - 2023-07-04
-
-### Fixed
-
-- Error resolving dependencies [\#2817](https://github.com/cursive-ide/cursive/issues/2817)
-- Stubs generation doesn't correctly stop when encountering errors [\#2814](https://github.com/cursive-ide/cursive/issues/2814)
-- Commas inserted into alias lists when migrating from old run config format [\#2813](https://github.com/cursive-ide/cursive/issues/2813)
-
-## 1.13.0-eap5 - 2023-07-02
-
-### Fixed
-
-- LinkageErrors, again [\#2812](https://github.com/cursive-ide/cursive/issues/2812)
-
-## 1.13.0-eap4 - 2023-07-01
-
-### Fixed
-
-- LinkageError when using new deps integration [\#2811](https://github.com/cursive-ide/cursive/issues/2811)
-- Exception using new deps integration on Windows [\#2810](https://github.com/cursive-ide/cursive/issues/2810)
-- Error when using new deps integration when deps.clj is not installed [\#2809](https://github.com/cursive-ide/cursive/issues/2809)
-
-## 1.13.0-eap3 - 2023-06-30
-
-### Fixed
-
-- Problems when generating stubs due to interactions with user.clj [\#2808](https://github.com/cursive-ide/cursive/issues/2808)
-- Exception when using deps under 1.13.0-eap2 [\#2807](https://github.com/cursive-ide/cursive/issues/2807)
-
-## 1.13.0-eap2 - 2023-06-30
-
-### Added
-
 - Make URLs in strings clickable [\#2804](https://github.com/cursive-ide/cursive/issues/2804)
 - Allow running tools.build REPLs [\#2653](https://github.com/cursive-ide/cursive/issues/2653)
 - Support adding brick as :extra-deps for a Polylith workspace in development [\#2554](https://github.com/cursive-ide/cursive/issues/2554)
@@ -55,14 +16,12 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ### Fixed
 
-- replace-deps/paths in aliases stopped working around 1.12.3 [\#2689](https://github.com/cursive-ide/cursive/issues/2689)
-
-## 1.13.0-eap1 - 2023-05-21
-
-### Fixed
-
+- Stubs generation doesn't correctly stop when encountering errors [\#2814](https://github.com/cursive-ide/cursive/issues/2814)
+- LinkageErrors, again [\#2812](https://github.com/cursive-ide/cursive/issues/2812)
+- Problems when generating stubs due to interactions with user.clj [\#2808](https://github.com/cursive-ide/cursive/issues/2808)
 - Cursive doesn't resolve deftype fields containing dashes when accessed using field syntax [\#2797](https://github.com/cursive-ide/cursive/issues/2797)
 - Introduce Variable with Parinfer breaks code [\#2786](https://github.com/cursive-ide/cursive/issues/2786)
+- replace-deps/paths in aliases stopped working around 1.12.3 [\#2689](https://github.com/cursive-ide/cursive/issues/2689)
 - Rename variable with Parinfer breaks code [\#2106](https://github.com/cursive-ide/cursive/issues/2106)
 
 ## 1.12.8 - 2023-03-28
