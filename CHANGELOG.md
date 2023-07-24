@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1 - 2023-07-24
+
+### Added
+
+- Unable to select aliases when importing deps project [\#2285](https://github.com/cursive-ide/cursive/issues/2285)
+
+### Fixed
+
+- Deps modules which are converted to libraries are incorrectly shown in project view before sync [\#2823](https://github.com/cursive-ide/cursive/issues/2823)
+- New deps integration doesn't handle case when project requires aliases to sync [\#2822](https://github.com/cursive-ide/cursive/issues/2822)
+- New deps integration doesn't correctly handle :mvn/local-repo [\#2821](https://github.com/cursive-ide/cursive/issues/2821)
+
 ## 1.13.0 - 2023-07-11
 
 ### Added
@@ -17,7 +29,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 ### Fixed
 
 - Stubs generation doesn't correctly stop when encountering errors [\#2814](https://github.com/cursive-ide/cursive/issues/2814)
-- LinkageErrors, again [\#2812](https://github.com/cursive-ide/cursive/issues/2812)
 - Problems when generating stubs due to interactions with user.clj [\#2808](https://github.com/cursive-ide/cursive/issues/2808)
 - Cursive doesn't resolve deftype fields containing dashes when accessed using field syntax [\#2797](https://github.com/cursive-ide/cursive/issues/2797)
 - Introduce Variable with Parinfer breaks code [\#2786](https://github.com/cursive-ide/cursive/issues/2786)
