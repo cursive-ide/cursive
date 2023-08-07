@@ -4,7 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.13.1 - 2023-07-24
+## 1.13.1-eap2 - 2023-08-07
+
+### Changed
+
+- Clarify warning message when syncing using tools aliases [\#2826](https://github.com/cursive-ide/cursive/issues/2826)
+
+### Fixed
+
+- local/root deps are not handled correctly when using paths outside referring project [\#2829](https://github.com/cursive-ide/cursive/issues/2829)
+- Leiningen task command line parameters with spaces [\#2769](https://github.com/cursive-ide/cursive/issues/2769)
+
+## 1.13.1-eap1 - 2023-07-24
 
 ### Added
 
@@ -212,24 +223,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - New versions of Tools Deps breaks git SHA support [\#2581](https://github.com/cursive-ide/cursive/issues/2581)
 - test markers not staying visible in gutter [\#2574](https://github.com/cursive-ide/cursive/issues/2574)
 - [Deps] Sub-modules with same name do not resolve correctly in IntelliJ [\#2391](https://github.com/cursive-ide/cursive/issues/2391)
-
-## 1.10.3 - 2021-07-28
-
-### Added
-
-- cursive plugin stop working with IntelliJ IDEA 2021.2 EAP [\#2558](https://github.com/cursive-ide/cursive/issues/2558)
-
-### Changed
-
-- Set JAVA_HOME when invoking deps -Sdescribe [\#2561](https://github.com/cursive-ide/cursive/issues/2561)
-
-### Fixed
-
-- Some deps projects refuse to sync in 2021.1 [\#2563](https://github.com/cursive-ide/cursive/issues/2563)
-- Failure when using :override-deps in deps.edn [\#2557](https://github.com/cursive-ide/cursive/issues/2557)
-- REPL occasionally shows blank tab title [\#2541](https://github.com/cursive-ide/cursive/issues/2541)
-- Bug: doesn't work with relative path in :mvn/local-repo [\#2535](https://github.com/cursive-ide/cursive/issues/2535)
-- [deps.edn] Cursive picks up the wrong version of clojure-tools JAR when there are multiple versions of it under "/usr/local/lib/clojure/libexec" [\#2105](https://github.com/cursive-ide/cursive/issues/2105)
 
 ## 1.12 - 2023-03-28
 
