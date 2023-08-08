@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1-eap3 - 2023-08-08
+
+### Fixed
+
+- deps.clj is not correctly downloaded if user doesn't have it installed at startup [\#2832](https://github.com/cursive-ide/cursive/issues/2832)
+- :local/root dependencies do not work correctly on Windows [\#2831](https://github.com/cursive-ide/cursive/issues/2831)
+
 ## 1.13.1-eap2 - 2023-08-07
 
 ### Changed
