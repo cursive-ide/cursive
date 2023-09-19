@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1-eap4 - 2023-09-19
+
+### Fixed
+
+- The project has an outdated format on startup [\#2835](https://github.com/cursive-ide/cursive/issues/2835)
+- Variable binding is wrong on if-let [\#500](https://github.com/cursive-ide/cursive/issues/500)
+
 ## 1.13.1-eap3 - 2023-08-08
 
 ### Fixed
@@ -216,20 +223,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Cursive causes IDE Hang [\#2587](https://github.com/cursive-ide/cursive/issues/2587)
 - JetBrain's "Code with Me" plugin doesn't share the REPL [\#2486](https://github.com/cursive-ide/cursive/issues/2486)
 - Stop stealing focus when starting REPL [\#1579](https://github.com/cursive-ide/cursive/issues/1579)
-
-## 1.11.0 - 2021-09-17
-
-### Added
-
-- Add support for Grazie grammar checker [\#2579](https://github.com/cursive-ide/cursive/issues/2579)
-- Babashka problem inventory [\#2516](https://github.com/cursive-ide/cursive/issues/2516)
-- Support babashka as valid REPL target [\#2452](https://github.com/cursive-ide/cursive/issues/2452)
-
-### Fixed
-
-- New versions of Tools Deps breaks git SHA support [\#2581](https://github.com/cursive-ide/cursive/issues/2581)
-- test markers not staying visible in gutter [\#2574](https://github.com/cursive-ide/cursive/issues/2574)
-- [Deps] Sub-modules with same name do not resolve correctly in IntelliJ [\#2391](https://github.com/cursive-ide/cursive/issues/2391)
 
 ## 1.12 - 2023-03-28
 
