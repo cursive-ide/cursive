@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1-eap5 - 2023-09-25
+
+### Added
+
+- Support 2023.3 EAP [\#2840](https://github.com/cursive-ide/cursive/issues/2840)
+- File Structure support for EDN files [\#2706](https://github.com/cursive-ide/cursive/issues/2706)
+
 ## 1.13.1-eap4 - 2023-09-19
 
 ### Fixed
