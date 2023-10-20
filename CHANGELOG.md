@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1-eap6 - 2023-10-20
+
+### Added
+
+- Implement Context Info [\#2838](https://github.com/cursive-ide/cursive/issues/2838)
+- Add breadcrumbs [\#1793](https://github.com/cursive-ide/cursive/issues/1793)
+
+### Fixed
+
+- Cannot invoke "Class.getClassLoader()" because the return value of "IconPathPatcher.getContextClass(String)" is null [\#2849](https://github.com/cursive-ide/cursive/issues/2849)
+- :local/root deps from within git deps are incorrectly added as modules [\#2845](https://github.com/cursive-ide/cursive/issues/2845)
+
 ## 1.13.1-eap5 - 2023-09-25
 
 ### Added
