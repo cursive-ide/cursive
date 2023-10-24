@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1-eap7 - 2023-10-24
+
+### Fixed
+
+- Error from clj-extras plugin in 1.13.1-eap6 [\#2851](https://github.com/cursive-ide/cursive/issues/2851)
+
 ## 1.13.1-eap6 - 2023-10-20
 
 ### Added
