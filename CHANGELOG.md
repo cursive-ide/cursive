@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1-eap8 - 2023-10-26
+
+### Fixed
+
+- Cmd-W now closes the REPL, not Clojure files in editors [\#2852](https://github.com/cursive-ide/cursive/issues/2852)
+- Test markers not visible in the gutter [\#2762](https://github.com/cursive-ide/cursive/issues/2762)
+
 ## 1.13.1-eap7 - 2023-10-24
 
 ### Fixed
