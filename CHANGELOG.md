@@ -4,6 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.1-eap9 - 2023-11-27
+
+### Changed
+
+- When sending forms to REPL, they should include any metadata [\#2859](https://github.com/cursive-ide/cursive/issues/2859)
+- Please enable stub generation for Rama [\#2855](https://github.com/cursive-ide/cursive/issues/2855)
+- Add stub generation support for Specter [\#2767](https://github.com/cursive-ide/cursive/issues/2767)
+- Cursive & Specter not playing nicely [\#1973](https://github.com/cursive-ide/cursive/issues/1973)
+
+### Fixed
+
+- local deps within git deps don't appear correctly in Cursive [\#2861](https://github.com/cursive-ide/cursive/issues/2861)
+- Exceptions thrown when file's file type is overridden [\#2858](https://github.com/cursive-ide/cursive/issues/2858)
+- Exception when keyword is used in clojure.test/testing [\#2857](https://github.com/cursive-ide/cursive/issues/2857)
+- Previous/next REPL history actions now active in other editors [\#2856](https://github.com/cursive-ide/cursive/issues/2856)
+- New IDE zoom doesn't affect the REPL-window [\#2793](https://github.com/cursive-ide/cursive/issues/2793)
+- Ctrl+Mousewheel REPL zoom [\#2766](https://github.com/cursive-ide/cursive/issues/2766)
+- IntelliJ IDEA 2022.1.2 REPL Pinch to zoom [\#2726](https://github.com/cursive-ide/cursive/issues/2726)
+
 ## 1.13.1-eap8 - 2023-10-26
 
 ### Fixed
