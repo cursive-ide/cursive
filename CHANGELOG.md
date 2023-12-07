@@ -4,95 +4,42 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.13.1-eap10 - 2023-12-04
+## 1.13.1 - 2023-12-07
 
-## 1.13.1-eap9 - 2023-11-27
+### Added
+
+- Support 2023.3 EAP [\#2840](https://github.com/cursive-ide/cursive/issues/2840)
+- Implement Context Info [\#2838](https://github.com/cursive-ide/cursive/issues/2838)
+- File Structure support for EDN files [\#2706](https://github.com/cursive-ide/cursive/issues/2706)
+- Unable to select aliases when importing deps project [\#2285](https://github.com/cursive-ide/cursive/issues/2285)
+- Add breadcrumbs [\#1793](https://github.com/cursive-ide/cursive/issues/1793)
 
 ### Changed
 
 - When sending forms to REPL, they should include any metadata [\#2859](https://github.com/cursive-ide/cursive/issues/2859)
 - Please enable stub generation for Rama [\#2855](https://github.com/cursive-ide/cursive/issues/2855)
+- Clarify warning message when syncing using tools aliases [\#2826](https://github.com/cursive-ide/cursive/issues/2826)
 - Add stub generation support for Specter [\#2767](https://github.com/cursive-ide/cursive/issues/2767)
 - Cursive & Specter not playing nicely [\#1973](https://github.com/cursive-ide/cursive/issues/1973)
 
 ### Fixed
 
-- local deps within git deps don't appear correctly in Cursive [\#2861](https://github.com/cursive-ide/cursive/issues/2861)
 - Exceptions thrown when file's file type is overridden [\#2858](https://github.com/cursive-ide/cursive/issues/2858)
 - Exception when keyword is used in clojure.test/testing [\#2857](https://github.com/cursive-ide/cursive/issues/2857)
-- Previous/next REPL history actions now active in other editors [\#2856](https://github.com/cursive-ide/cursive/issues/2856)
-- New IDE zoom doesn't affect the REPL-window [\#2793](https://github.com/cursive-ide/cursive/issues/2793)
-- Ctrl+Mousewheel REPL zoom [\#2766](https://github.com/cursive-ide/cursive/issues/2766)
-- IntelliJ IDEA 2022.1.2 REPL Pinch to zoom [\#2726](https://github.com/cursive-ide/cursive/issues/2726)
-
-## 1.13.1-eap8 - 2023-10-26
-
-### Fixed
-
-- Cmd-W now closes the REPL, not Clojure files in editors [\#2852](https://github.com/cursive-ide/cursive/issues/2852)
-- Test markers not visible in the gutter [\#2762](https://github.com/cursive-ide/cursive/issues/2762)
-
-## 1.13.1-eap7 - 2023-10-24
-
-### Fixed
-
-- Error from clj-extras plugin in 1.13.1-eap6 [\#2851](https://github.com/cursive-ide/cursive/issues/2851)
-
-## 1.13.1-eap6 - 2023-10-20
-
-### Added
-
-- Implement Context Info [\#2838](https://github.com/cursive-ide/cursive/issues/2838)
-- Add breadcrumbs [\#1793](https://github.com/cursive-ide/cursive/issues/1793)
-
-### Fixed
-
-- Cannot invoke "Class.getClassLoader()" because the return value of "IconPathPatcher.getContextClass(String)" is null [\#2849](https://github.com/cursive-ide/cursive/issues/2849)
 - :local/root deps from within git deps are incorrectly added as modules [\#2845](https://github.com/cursive-ide/cursive/issues/2845)
-
-## 1.13.1-eap5 - 2023-09-25
-
-### Added
-
-- Support 2023.3 EAP [\#2840](https://github.com/cursive-ide/cursive/issues/2840)
-- File Structure support for EDN files [\#2706](https://github.com/cursive-ide/cursive/issues/2706)
-
-## 1.13.1-eap4 - 2023-09-19
-
-### Fixed
-
 - The project has an outdated format on startup [\#2835](https://github.com/cursive-ide/cursive/issues/2835)
-- Variable binding is wrong on if-let [\#500](https://github.com/cursive-ide/cursive/issues/500)
-
-## 1.13.1-eap3 - 2023-08-08
-
-### Fixed
-
 - deps.clj is not correctly downloaded if user doesn't have it installed at startup [\#2832](https://github.com/cursive-ide/cursive/issues/2832)
 - :local/root dependencies do not work correctly on Windows [\#2831](https://github.com/cursive-ide/cursive/issues/2831)
-
-## 1.13.1-eap2 - 2023-08-07
-
-### Changed
-
-- Clarify warning message when syncing using tools aliases [\#2826](https://github.com/cursive-ide/cursive/issues/2826)
-
-### Fixed
-
 - local/root deps are not handled correctly when using paths outside referring project [\#2829](https://github.com/cursive-ide/cursive/issues/2829)
-- Leiningen task command line parameters with spaces [\#2769](https://github.com/cursive-ide/cursive/issues/2769)
-
-## 1.13.1-eap1 - 2023-07-24
-
-### Added
-
-- Unable to select aliases when importing deps project [\#2285](https://github.com/cursive-ide/cursive/issues/2285)
-
-### Fixed
-
 - Deps modules which are converted to libraries are incorrectly shown in project view before sync [\#2823](https://github.com/cursive-ide/cursive/issues/2823)
 - New deps integration doesn't handle case when project requires aliases to sync [\#2822](https://github.com/cursive-ide/cursive/issues/2822)
 - New deps integration doesn't correctly handle :mvn/local-repo [\#2821](https://github.com/cursive-ide/cursive/issues/2821)
+- New IDE zoom doesn't affect the REPL-window [\#2793](https://github.com/cursive-ide/cursive/issues/2793)
+- Leiningen task command line parameters with spaces [\#2769](https://github.com/cursive-ide/cursive/issues/2769)
+- Ctrl+Mousewheel REPL zoom [\#2766](https://github.com/cursive-ide/cursive/issues/2766)
+- Test markers not visible in the gutter [\#2762](https://github.com/cursive-ide/cursive/issues/2762)
+- IntelliJ IDEA 2022.1.2 REPL Pinch to zoom [\#2726](https://github.com/cursive-ide/cursive/issues/2726)
+- Variable binding is wrong on if-let [\#500](https://github.com/cursive-ide/cursive/issues/500)
 
 ## 1.13.0 - 2023-07-11
 
