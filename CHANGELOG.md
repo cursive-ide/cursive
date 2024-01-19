@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap1 - 2024-01-19
+
+### Added
+
+- Add support for IntelliJ 2024.1 EAP [\#2871](https://github.com/cursive-ide/cursive/issues/2871)
+
 ## 1.13.1 - 2023-12-07
 
 ### Added
