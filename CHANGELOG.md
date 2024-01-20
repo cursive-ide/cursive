@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap2 - 2024-01-20
+
+### Fixed
+
+- `.deps.clj/1.11.1.1429/ClojureTools/TRANSACTION_START (No such file or directory)` error on start [\#2867](https://github.com/cursive-ide/cursive/issues/2867)
+
 ## 1.13.2-eap1 - 2024-01-19
 
 ### Added
