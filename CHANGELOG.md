@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap3 - 2024-01-25
+
+### Fixed
+
+- When importing deps projects, Maven repos are no longer detected [\#2873](https://github.com/cursive-ide/cursive/issues/2873)
+- Cursive ide makes intellij freeze and ruins project when running test [\#2752](https://github.com/cursive-ide/cursive/issues/2752)
+
 ## 1.13.2-eap2 - 2024-01-20
 
 ### Fixed
