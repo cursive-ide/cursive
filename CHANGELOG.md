@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap4 - 2024-02-27
+
+### Added
+
+- Add support for new language syntax in Clojure 1.12 [\#2878](https://github.com/cursive-ide/cursive/issues/2878)
+
+### Changed
+
+- Use built-in action for showing type information [\#2877](https://github.com/cursive-ide/cursive/issues/2877)
+
+### Fixed
+
+- Error resolving dependencies with Leiningen 2.11 [\#2879](https://github.com/cursive-ide/cursive/issues/2879)
+- Type inference does not work correctly for Class objects [\#2422](https://github.com/cursive-ide/cursive/issues/2422)
+- Incorrect type inference for anonymous functions [\#1278](https://github.com/cursive-ide/cursive/issues/1278)
+
 ## 1.13.2-eap3 - 2024-01-25
 
 ### Fixed
