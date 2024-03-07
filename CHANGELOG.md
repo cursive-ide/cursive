@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap5 - 2024-03-07
+
+### Added
+
+- Code vision for references [\#2741](https://github.com/cursive-ide/cursive/issues/2741)
+- Add Programmatic Setting of Remote REPL Host [\#2559](https://github.com/cursive-ide/cursive/issues/2559)
+
+### Changed
+
+- Don't select namespace text when creating a new namespace [\#2881](https://github.com/cursive-ide/cursive/issues/2881)
+
 ## 1.13.2-eap4 - 2024-02-27
 
 ### Added
