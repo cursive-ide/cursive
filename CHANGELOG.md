@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap7 - 2024-03-15
+
+### Fixed
+
+- Cannot run REPL in 1.13.2-eap6 [\#2886](https://github.com/cursive-ide/cursive/issues/2886)
+
 ## 1.13.2-eap6 - 2024-03-15
 
 ### Changed
