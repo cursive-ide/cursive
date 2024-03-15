@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap6 - 2024-03-15
+
+### Changed
+
+- Improvements to usages inlay hints [\#2883](https://github.com/cursive-ide/cursive/issues/2883)
+
 ## 1.13.2-eap5 - 2024-03-07
 
 ### Added
