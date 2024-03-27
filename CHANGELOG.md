@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.2-eap8 - 2024-03-27
+
+### Changed
+
+- Simplify folding [\#2890](https://github.com/cursive-ide/cursive/issues/2890)
+- Update Maven completion code in 2024.1 [\#2889](https://github.com/cursive-ide/cursive/issues/2889)
+
 ## 1.13.2-eap7 - 2024-03-15
 
 ### Fixed
