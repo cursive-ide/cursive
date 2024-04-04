@@ -4,72 +4,31 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.13.2-eap9 - 2024-04-04
-
-## 1.13.2-eap8 - 2024-03-27
-
-### Changed
-
-- Simplify folding [\#2890](https://github.com/cursive-ide/cursive/issues/2890)
-- Update Maven completion code in 2024.1 [\#2889](https://github.com/cursive-ide/cursive/issues/2889)
-
-## 1.13.2-eap7 - 2024-03-15
-
-### Fixed
-
-- Cannot run REPL in 1.13.2-eap6 [\#2886](https://github.com/cursive-ide/cursive/issues/2886)
-
-## 1.13.2-eap6 - 2024-03-15
-
-### Changed
-
-- Improvements to usages inlay hints [\#2883](https://github.com/cursive-ide/cursive/issues/2883)
-
-## 1.13.2-eap5 - 2024-03-07
+## 1.13.2 - 2024-04-04
 
 ### Added
 
+- Add support for new language syntax in Clojure 1.12 [\#2878](https://github.com/cursive-ide/cursive/issues/2878)
+- Add support for IntelliJ 2024.1 EAP [\#2871](https://github.com/cursive-ide/cursive/issues/2871)
 - Code vision for references [\#2741](https://github.com/cursive-ide/cursive/issues/2741)
 - Add Programmatic Setting of Remote REPL Host [\#2559](https://github.com/cursive-ide/cursive/issues/2559)
 
 ### Changed
 
+- Simplify folding [\#2890](https://github.com/cursive-ide/cursive/issues/2890)
+- Update Maven completion code in 2024.1 [\#2889](https://github.com/cursive-ide/cursive/issues/2889)
+- Improvements to usages inlay hints [\#2883](https://github.com/cursive-ide/cursive/issues/2883)
 - Don't select namespace text when creating a new namespace [\#2881](https://github.com/cursive-ide/cursive/issues/2881)
-
-## 1.13.2-eap4 - 2024-02-27
-
-### Added
-
-- Add support for new language syntax in Clojure 1.12 [\#2878](https://github.com/cursive-ide/cursive/issues/2878)
-
-### Changed
-
 - Use built-in action for showing type information [\#2877](https://github.com/cursive-ide/cursive/issues/2877)
 
 ### Fixed
 
 - Error resolving dependencies with Leiningen 2.11 [\#2879](https://github.com/cursive-ide/cursive/issues/2879)
+- When importing deps projects, Maven repos are no longer detected [\#2873](https://github.com/cursive-ide/cursive/issues/2873)
+- `.deps.clj/1.11.1.1429/ClojureTools/TRANSACTION_START (No such file or directory)` error on start [\#2867](https://github.com/cursive-ide/cursive/issues/2867)
+- Cursive ide makes intellij freeze and ruins project when running test [\#2752](https://github.com/cursive-ide/cursive/issues/2752)
 - Type inference does not work correctly for Class objects [\#2422](https://github.com/cursive-ide/cursive/issues/2422)
 - Incorrect type inference for anonymous functions [\#1278](https://github.com/cursive-ide/cursive/issues/1278)
-
-## 1.13.2-eap3 - 2024-01-25
-
-### Fixed
-
-- When importing deps projects, Maven repos are no longer detected [\#2873](https://github.com/cursive-ide/cursive/issues/2873)
-- Cursive ide makes intellij freeze and ruins project when running test [\#2752](https://github.com/cursive-ide/cursive/issues/2752)
-
-## 1.13.2-eap2 - 2024-01-20
-
-### Fixed
-
-- `.deps.clj/1.11.1.1429/ClojureTools/TRANSACTION_START (No such file or directory)` error on start [\#2867](https://github.com/cursive-ide/cursive/issues/2867)
-
-## 1.13.2-eap1 - 2024-01-19
-
-### Added
-
-- Add support for IntelliJ 2024.1 EAP [\#2871](https://github.com/cursive-ide/cursive/issues/2871)
 
 ## 1.13.1 - 2023-12-07
 
