@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.3 - 2024-04-04
+
+### Fixed
+
+- Error generating stubs with 1.13.2 [\#2891](https://github.com/cursive-ide/cursive/issues/2891)
+
 ## 1.13.2 - 2024-04-04
 
 ### Added
