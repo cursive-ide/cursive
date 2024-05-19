@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap2 - 2024-05-19
+
+### Fixed
+
+- Exception when syncing projects with 1.13.4-eap1 [\#2905](https://github.com/cursive-ide/cursive/issues/2905)
+
 ## 1.13.4-eap1 - 2024-05-19
 
 ### Added
