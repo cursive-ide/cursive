@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap1 - 2024-05-19
+
+### Added
+
+- Add support for IntelliJ 2024.2 EAP [\#2904](https://github.com/cursive-ide/cursive/issues/2904)
+
+### Changed
+
+- [Deps] resources dir incorrectly classified in IntelliJ's project structure [\#2400](https://github.com/cursive-ide/cursive/issues/2400)
+
 ## 1.13.3 - 2024-04-04
 
 ### Fixed
