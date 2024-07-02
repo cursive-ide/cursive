@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap4 - 2024-07-02
+
+### Changed
+
+- Restore command line folding for REPL [\#2912](https://github.com/cursive-ide/cursive/issues/2912)
+- Replace auto-scroll functionality [\#2911](https://github.com/cursive-ide/cursive/issues/2911)
+- Update support for new interop syntax [\#2910](https://github.com/cursive-ide/cursive/issues/2910)
+
+### Fixed
+
+- Inner classes don't present popup to import [\#2917](https://github.com/cursive-ide/cursive/issues/2917)
+- Organize imports removes imported Java classes if method calls use reflection [\#2734](https://github.com/cursive-ide/cursive/issues/2734)
+
 ## 1.13.4-eap3 - 2024-05-20
 
 ### Fixed
