@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap5 - 2024-07-11
+
+### Changed
+
+- Report raw test results [\#2687](https://github.com/cursive-ide/cursive/issues/2687)
+
+### Fixed
+
+- Test failures from matcher-combinators have stopped displaying [\#2787](https://github.com/cursive-ide/cursive/issues/2787)
+- Test marked successful in cursive yet fails (correctly) with cognitect test runner [\#2744](https://github.com/cursive-ide/cursive/issues/2744)
+- Organize imports removes imported Java classes if method calls use reflection [\#2734](https://github.com/cursive-ide/cursive/issues/2734)
+
 ## 1.13.4-eap4 - 2024-07-02
 
 ### Changed
@@ -15,7 +27,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 ### Fixed
 
 - Inner classes don't present popup to import [\#2917](https://github.com/cursive-ide/cursive/issues/2917)
-- Organize imports removes imported Java classes if method calls use reflection [\#2734](https://github.com/cursive-ide/cursive/issues/2734)
 
 ## 1.13.4-eap3 - 2024-05-20
 
