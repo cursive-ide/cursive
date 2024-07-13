@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap6 - 2024-07-13
+
+### Fixed
+
+- Clicking test result gutter icon adds multiple inlays [\#2921](https://github.com/cursive-ide/cursive/issues/2921)
+
 ## 1.13.4-eap5 - 2024-07-11
 
 ### Changed
