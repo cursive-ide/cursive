@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap7 - 2024-07-17
+
+### Changed
+
+- Allow switching between test result diffs in diff pane [\#2924](https://github.com/cursive-ide/cursive/issues/2924)
+
+### Fixed
+
+- Cannot press Escape to remove all highlighting, also in all other languages than Clojure [\#2923](https://github.com/cursive-ide/cursive/issues/2923)
+- Cursive causing UI freezes [\#2920](https://github.com/cursive-ide/cursive/issues/2920)
+
 ## 1.13.4-eap6 - 2024-07-13
 
 ### Fixed
