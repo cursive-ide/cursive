@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap8 - 2024-07-23
+
+### Changed
+
+- Allow switching between inlay contents when tests have multiple results [\#2926](https://github.com/cursive-ide/cursive/issues/2926)
+
+### Fixed
+
+- REPL process output not passed through *out*/*err* doesn't receive ANSI highlighting [\#2932](https://github.com/cursive-ide/cursive/issues/2932)
+- Spurious error running Clojure Application run configs with deps [\#2931](https://github.com/cursive-ide/cursive/issues/2931)
+- Failure details not reported for assertions inside fixtures [\#2929](https://github.com/cursive-ide/cursive/issues/2929)
+- "Load File in REPL" stopped working [\#2927](https://github.com/cursive-ide/cursive/issues/2927)
+- "Load File in REPL" gives IndexOutOfBounds [\#2896](https://github.com/cursive-ide/cursive/issues/2896)
+- Expected and actual values are swapped compared to typical Clojure test runners in test diffs [\#2775](https://github.com/cursive-ide/cursive/issues/2775)
+- Load File in REPL throws exception [\#2664](https://github.com/cursive-ide/cursive/issues/2664)
+
 ## 1.13.4-eap7 - 2024-07-17
 
 ### Changed
@@ -44,6 +60,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 ### Fixed
 
 - Inner classes don't present popup to import [\#2917](https://github.com/cursive-ide/cursive/issues/2917)
+- NumberFormatException trying to connect to babashka-REPL [\#2909](https://github.com/cursive-ide/cursive/issues/2909)
 
 ## 1.13.4-eap3 - 2024-05-20
 
