@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap9 - 2024-07-29
+
+### Changed
+
+- Update icons for new UI [\#2935](https://github.com/cursive-ide/cursive/issues/2935)
+
 ## 1.13.4-eap8 - 2024-07-23
 
 ### Changed
