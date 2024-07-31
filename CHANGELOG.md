@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap10 - 2024-07-31
+
+### Changed
+
+- Spurious test pass messages [\#2939](https://github.com/cursive-ide/cursive/issues/2939)
+- Allow configuring whether test diffs are shown in inlay [\#2938](https://github.com/cursive-ide/cursive/issues/2938)
+
 ## 1.13.4-eap9 - 2024-07-29
 
 ### Changed
