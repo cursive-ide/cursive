@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.4-eap12 - 2024-08-03
+
 ## 1.13.4-eap11 - 2024-08-01
 
 ### Fixed
