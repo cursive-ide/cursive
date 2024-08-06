@@ -4,98 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.13.4-eap12 - 2024-08-03
-
-## 1.13.4-eap11 - 2024-08-01
-
-### Fixed
-
-- Tests marked as green despite failure [\#2940](https://github.com/cursive-ide/cursive/issues/2940)
-
-## 1.13.4-eap10 - 2024-07-31
-
-### Changed
-
-- Spurious test pass messages [\#2939](https://github.com/cursive-ide/cursive/issues/2939)
-- Allow configuring whether test diffs are shown in inlay [\#2938](https://github.com/cursive-ide/cursive/issues/2938)
-
-## 1.13.4-eap9 - 2024-07-29
-
-### Changed
-
-- Update icons for new UI [\#2935](https://github.com/cursive-ide/cursive/issues/2935)
-
-## 1.13.4-eap8 - 2024-07-23
-
-### Changed
-
-- Allow switching between inlay contents when tests have multiple results [\#2926](https://github.com/cursive-ide/cursive/issues/2926)
-
-### Fixed
-
-- REPL process output not passed through *out*/*err* doesn't receive ANSI highlighting [\#2932](https://github.com/cursive-ide/cursive/issues/2932)
-- Spurious error running Clojure Application run configs with deps [\#2931](https://github.com/cursive-ide/cursive/issues/2931)
-- Failure details not reported for assertions inside fixtures [\#2929](https://github.com/cursive-ide/cursive/issues/2929)
-- "Load File in REPL" stopped working [\#2927](https://github.com/cursive-ide/cursive/issues/2927)
-- "Load File in REPL" gives IndexOutOfBounds [\#2896](https://github.com/cursive-ide/cursive/issues/2896)
-- Expected and actual values are swapped compared to typical Clojure test runners in test diffs [\#2775](https://github.com/cursive-ide/cursive/issues/2775)
-- Load File in REPL throws exception [\#2664](https://github.com/cursive-ide/cursive/issues/2664)
-
-## 1.13.4-eap7 - 2024-07-17
-
-### Changed
-
-- Allow switching between test result diffs in diff pane [\#2924](https://github.com/cursive-ide/cursive/issues/2924)
-
-### Fixed
-
-- Cannot press Escape to remove all highlighting, also in all other languages than Clojure [\#2923](https://github.com/cursive-ide/cursive/issues/2923)
-- Cursive causing UI freezes [\#2920](https://github.com/cursive-ide/cursive/issues/2920)
-
-## 1.13.4-eap6 - 2024-07-13
-
-### Fixed
-
-- Clicking test result gutter icon adds multiple inlays [\#2921](https://github.com/cursive-ide/cursive/issues/2921)
-
-## 1.13.4-eap5 - 2024-07-11
-
-### Changed
-
-- Report raw test results [\#2687](https://github.com/cursive-ide/cursive/issues/2687)
-
-### Fixed
-
-- Test failures from matcher-combinators have stopped displaying [\#2787](https://github.com/cursive-ide/cursive/issues/2787)
-- Test marked successful in cursive yet fails (correctly) with cognitect test runner [\#2744](https://github.com/cursive-ide/cursive/issues/2744)
-- Organize imports removes imported Java classes if method calls use reflection [\#2734](https://github.com/cursive-ide/cursive/issues/2734)
-
-## 1.13.4-eap4 - 2024-07-02
-
-### Changed
-
-- Restore command line folding for REPL [\#2912](https://github.com/cursive-ide/cursive/issues/2912)
-- Replace auto-scroll functionality [\#2911](https://github.com/cursive-ide/cursive/issues/2911)
-- Update support for new interop syntax [\#2910](https://github.com/cursive-ide/cursive/issues/2910)
-
-### Fixed
-
-- Inner classes don't present popup to import [\#2917](https://github.com/cursive-ide/cursive/issues/2917)
-- NumberFormatException trying to connect to babashka-REPL [\#2909](https://github.com/cursive-ide/cursive/issues/2909)
-
-## 1.13.4-eap3 - 2024-05-20
-
-### Fixed
-
-- Exception when syncing lein projects with 1.13.4-eap2 [\#2907](https://github.com/cursive-ide/cursive/issues/2907)
-
-## 1.13.4-eap2 - 2024-05-19
-
-### Fixed
-
-- Exception when syncing projects with 1.13.4-eap1 [\#2905](https://github.com/cursive-ide/cursive/issues/2905)
-
-## 1.13.4-eap1 - 2024-05-19
+## 1.13.4 - 2024-08-06
 
 ### Added
 
@@ -103,7 +12,29 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ### Changed
 
+- Update icons for new UI [\#2935](https://github.com/cursive-ide/cursive/issues/2935)
+- Allow switching between inlay contents when tests have multiple results [\#2926](https://github.com/cursive-ide/cursive/issues/2926)
+- Allow switching between test result diffs in diff pane [\#2924](https://github.com/cursive-ide/cursive/issues/2924)
+- Update support for new interop syntax [\#2910](https://github.com/cursive-ide/cursive/issues/2910)
+- Report raw test results [\#2687](https://github.com/cursive-ide/cursive/issues/2687)
 - [Deps] resources dir incorrectly classified in IntelliJ's project structure [\#2400](https://github.com/cursive-ide/cursive/issues/2400)
+
+### Fixed
+
+- Tests marked as green despite failure [\#2940](https://github.com/cursive-ide/cursive/issues/2940)
+- REPL process output not passed through *out*/*err* doesn't receive ANSI highlighting [\#2932](https://github.com/cursive-ide/cursive/issues/2932)
+- Spurious error running Clojure Application run configs with deps [\#2931](https://github.com/cursive-ide/cursive/issues/2931)
+- Failure details not reported for assertions inside fixtures [\#2929](https://github.com/cursive-ide/cursive/issues/2929)
+- "Load File in REPL" stopped working [\#2927](https://github.com/cursive-ide/cursive/issues/2927)
+- Cursive causing UI freezes [\#2920](https://github.com/cursive-ide/cursive/issues/2920)
+- Inner classes don't present popup to import [\#2917](https://github.com/cursive-ide/cursive/issues/2917)
+- NumberFormatException trying to connect to babashka-REPL [\#2909](https://github.com/cursive-ide/cursive/issues/2909)
+- "Load File in REPL" gives IndexOutOfBounds [\#2896](https://github.com/cursive-ide/cursive/issues/2896)
+- Test failures from matcher-combinators have stopped displaying [\#2787](https://github.com/cursive-ide/cursive/issues/2787)
+- Expected and actual values are swapped compared to typical Clojure test runners in test diffs [\#2775](https://github.com/cursive-ide/cursive/issues/2775)
+- Test marked successful in cursive yet fails (correctly) with cognitect test runner [\#2744](https://github.com/cursive-ide/cursive/issues/2744)
+- Organize imports removes imported Java classes if method calls use reflection [\#2734](https://github.com/cursive-ide/cursive/issues/2734)
+- Load File in REPL throws exception [\#2664](https://github.com/cursive-ide/cursive/issues/2664)
 
 ## 1.13.3 - 2024-04-04
 
