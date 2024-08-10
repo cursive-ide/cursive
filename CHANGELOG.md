@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.13.5 - 2024-08-10
+
+### Fixed
+
+- Fix regression of #2923 [\#2944](https://github.com/cursive-ide/cursive/issues/2944)
+
 ## 1.13.4 - 2024-08-06
 
 ### Added
