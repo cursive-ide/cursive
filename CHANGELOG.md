@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.14.0-eap1 - 2024-09-13
+
+### Added
+
+- Automatically create run configurations on project open/creation [\#2951](https://github.com/cursive-ide/cursive/issues/2951)
+- Support for inline form evaluation + watching [\#391](https://github.com/cursive-ide/cursive/issues/391)
+
+### Changed
+
+- Update rainbow parens colours to use colour palette from new UI guidelines [\#2948](https://github.com/cursive-ide/cursive/issues/2948)
+- Show directory in editor tabs for non unique file names [\#2946](https://github.com/cursive-ide/cursive/issues/2946)
+
+### Fixed
+
+- Synchronizing Leiningen projects give errors about writing in EDT [\#2952](https://github.com/cursive-ide/cursive/issues/2952)
+- Test exceptions/errors not printed in the REPL [\#2950](https://github.com/cursive-ide/cursive/issues/2950)
+
 ## 1.13.5 - 2024-08-10
 
 ### Fixed
