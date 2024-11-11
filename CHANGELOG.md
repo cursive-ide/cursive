@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.14.0-eap3 - 2024-11-11
+
+### Fixed
+
+- REPL commands no longer work outside of Clojure files [\#2977](https://github.com/cursive-ide/cursive/issues/2977)
+- Jump to REPL and Output commands no longer work when not in a Clojure file [\#2976](https://github.com/cursive-ide/cursive/issues/2976)
+
 ## 1.14.0-eap2 - 2024-11-08
 
 ### Changed
