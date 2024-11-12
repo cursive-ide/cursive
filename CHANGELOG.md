@@ -4,6 +4,14 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.14.0-eap4 - 2024-11-12
+
+### Fixed
+
+- REPL commands display their results inline even when configured not to [\#2981](https://github.com/cursive-ide/cursive/issues/2981)
+- Inline Seekers cannot be dismissed from file types other than Clojure [\#2980](https://github.com/cursive-ide/cursive/issues/2980)
+- Exception when evaluating in 1.14 [\#2979](https://github.com/cursive-ide/cursive/issues/2979)
+
 ## 1.14.0-eap3 - 2024-11-11
 
 ### Fixed
