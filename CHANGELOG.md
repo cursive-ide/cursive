@@ -4,38 +4,7 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 1.14.0-eap4 - 2024-11-12
-
-### Fixed
-
-- REPL commands display their results inline even when configured not to [\#2981](https://github.com/cursive-ide/cursive/issues/2981)
-- Inline Seekers cannot be dismissed from file types other than Clojure [\#2980](https://github.com/cursive-ide/cursive/issues/2980)
-- Exception when evaluating in 1.14 [\#2979](https://github.com/cursive-ide/cursive/issues/2979)
-
-## 1.14.0-eap3 - 2024-11-11
-
-### Fixed
-
-- REPL commands no longer work outside of Clojure files [\#2977](https://github.com/cursive-ide/cursive/issues/2977)
-- Jump to REPL and Output commands no longer work when not in a Clojure file [\#2976](https://github.com/cursive-ide/cursive/issues/2976)
-
-## 1.14.0-eap2 - 2024-11-08
-
-### Changed
-
-- Lack of popup on REPL selector widget is confusing [\#2965](https://github.com/cursive-ide/cursive/issues/2965)
-
-### Fixed
-
-- Frequent java.lang.IllegalStateException: Recursive update [\#2971](https://github.com/cursive-ide/cursive/issues/2971)
-- Datalevin datom doesn't support empty function [\#2970](https://github.com/cursive-ide/cursive/issues/2970)
-- Stacking multiple #_ isn't shown as a comment [\#2964](https://github.com/cursive-ide/cursive/issues/2964)
-- Serialization error in exceptions [\#2963](https://github.com/cursive-ide/cursive/issues/2963)
-- Inline REPL results ignores zoom level [\#2961](https://github.com/cursive-ide/cursive/issues/2961)
-- Can't toggle REPL toolwindow [\#2959](https://github.com/cursive-ide/cursive/issues/2959)
-- Inline REPL results are causing a line wrap [\#2958](https://github.com/cursive-ide/cursive/issues/2958)
-
-## 1.14.0-eap1 - 2024-09-13
+## 1.14.0 - 2024-11-13
 
 ### Added
 
