@@ -4,6 +4,29 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.14.1-eap1 - 2024-12-11
+
+### Added
+
+- Reformatting doesn't reflow doc strings [\#653](https://github.com/cursive-ide/cursive/issues/653)
+
+### Changed
+
+- Add an option "Use open REPL pane" to restore previous behaviour [\#2988](https://github.com/cursive-ide/cursive/issues/2988)
+- REPL commands intended for CLJ REPLs don't work in CLJS or EDN files [\#2985](https://github.com/cursive-ide/cursive/issues/2985)
+
+### Fixed
+
+- New Method Reference syntax for instance methods is flakey [\#2997](https://github.com/cursive-ide/cursive/issues/2997)
+- "Internal error: cannot patch the selected configuration" when running debugger [\#2995](https://github.com/cursive-ide/cursive/issues/2995)
+- test exceptions not shown sometimes, "Error handling response" in repl [\#2994](https://github.com/cursive-ide/cursive/issues/2994)
+- `cursive.repl.runtime.errors/ex->data` throws [\#2993](https://github.com/cursive-ide/cursive/issues/2993)
+- Thread/interrupted receives incorrect warning [\#2989](https://github.com/cursive-ide/cursive/issues/2989)
+- Config items in new REPL settings pane are not searchable [\#2987](https://github.com/cursive-ide/cursive/issues/2987)
+- Cannot "Clear Output for Current REPL" anymore if its not running [\#2984](https://github.com/cursive-ide/cursive/issues/2984)
+- Test runner reports failing tests as passed if actual or expected contains ansi color codes [\#2973](https://github.com/cursive-ide/cursive/issues/2973)
+- `IllegalArgumentException` with `:shrunk` field in custom `IPersistentMap` implementation [\#2966](https://github.com/cursive-ide/cursive/issues/2966)
+
 ## 1.14.0 - 2024-11-13
 
 ### Added
