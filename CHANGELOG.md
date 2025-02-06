@@ -4,6 +4,24 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 1.14.1-eap2 - 2025-02-06
+
+### Added
+
+- Add support for 2025.1 EAP [\#3009](https://github.com/cursive-ide/cursive/issues/3009)
+
+### Changed
+
+- Repl scope configuration is very confusing. [\#3008](https://github.com/cursive-ide/cursive/issues/3008)
+
+### Fixed
+
+- Adding new modules to a project with name conflicts fails [\#3012](https://github.com/cursive-ide/cursive/issues/3012)
+- Cursive doesn't correctly resolve data readers from libraries [\#3011](https://github.com/cursive-ide/cursive/issues/3011)
+- "Show virtual space at the bottom of the file" setting causes inline diffs to expand infinitely [\#3010](https://github.com/cursive-ide/cursive/issues/3010)
+- Re-run last test action does not in HTML files [\#3007](https://github.com/cursive-ide/cursive/issues/3007)
+- *print-dup* breaks REPL test integration [\#3006](https://github.com/cursive-ide/cursive/issues/3006)
+
 ## 1.14.1-eap1 - 2024-12-11
 
 ### Added
