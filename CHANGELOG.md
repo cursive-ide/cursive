@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.1-eap3 - 2025-04-12
+
+### Added
+
+- Mark known clojure directories as excluded by default [\#2969](https://github.com/cursive-ide/cursive/issues/2969)
+
+### Fixed
+
+- Cannot load namespace into a build.clj REPL [\#3023](https://github.com/cursive-ide/cursive/issues/3023)
+- Problems resolving source path from library overridden in user deps.edn [\#3022](https://github.com/cursive-ide/cursive/issues/3022)
+- Error printing Java object [\#3021](https://github.com/cursive-ide/cursive/issues/3021)
+- Problems printing unreadable exceptions [\#3020](https://github.com/cursive-ide/cursive/issues/3020)
+
 ## 1.14.1-eap2 - 2025-02-06
 
 ### Added
