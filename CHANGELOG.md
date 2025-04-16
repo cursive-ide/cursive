@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.1 - 2025-04-16
+
 ## 2025.1-eap3 - 2025-04-12
 
 ### Added
@@ -17,7 +19,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Error printing Java object [\#3021](https://github.com/cursive-ide/cursive/issues/3021)
 - Problems printing unreadable exceptions [\#3020](https://github.com/cursive-ide/cursive/issues/3020)
 
-## 1.14.1-eap2 - 2025-02-06
+## 2025.1-eap2 - 2025-02-06
 
 ### Added
 
@@ -35,7 +37,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Re-run last test action does not in HTML files [\#3007](https://github.com/cursive-ide/cursive/issues/3007)
 - *print-dup* breaks REPL test integration [\#3006](https://github.com/cursive-ide/cursive/issues/3006)
 
-## 1.14.1-eap1 - 2024-12-11
+## 2025.1-eap1 - 2024-12-11
 
 ### Added
 
@@ -815,4 +817,39 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Test actions don't obey the transitive loading flag [\#1254](https://github.com/cursive-ide/cursive/issues/1254)
 - Make Cursive compatible with IntelliJ 16 EAP [\#1228](https://github.com/cursive-ide/cursive/issues/1228)
 - Integrate parinfer functionality [\#1155](https://github.com/cursive-ide/cursive/issues/1155)
+
+## 2025.1 - 2025-04-16
+
+### Added
+
+- Add support for 2025.1 EAP [\#3009](https://github.com/cursive-ide/cursive/issues/3009)
+- Mark known clojure directories as excluded by default [\#2969](https://github.com/cursive-ide/cursive/issues/2969)
+- Reformatting doesn't reflow doc strings [\#653](https://github.com/cursive-ide/cursive/issues/653)
+
+### Changed
+
+- Repl scope configuration is very confusing. [\#3008](https://github.com/cursive-ide/cursive/issues/3008)
+- Add an option "Use open REPL pane" to restore previous behaviour [\#2988](https://github.com/cursive-ide/cursive/issues/2988)
+- REPL commands intended for CLJ REPLs don't work in CLJS or EDN files [\#2985](https://github.com/cursive-ide/cursive/issues/2985)
+
+### Fixed
+
+- Cannot load namespace into a build.clj REPL [\#3023](https://github.com/cursive-ide/cursive/issues/3023)
+- Problems resolving source path from library overridden in user deps.edn [\#3022](https://github.com/cursive-ide/cursive/issues/3022)
+- Error printing Java object [\#3021](https://github.com/cursive-ide/cursive/issues/3021)
+- Problems printing unreadable exceptions [\#3020](https://github.com/cursive-ide/cursive/issues/3020)
+- Adding new modules to a project with name conflicts fails [\#3012](https://github.com/cursive-ide/cursive/issues/3012)
+- Cursive doesn't correctly resolve data readers from libraries [\#3011](https://github.com/cursive-ide/cursive/issues/3011)
+- "Show virtual space at the bottom of the file" setting causes inline diffs to expand infinitely [\#3010](https://github.com/cursive-ide/cursive/issues/3010)
+- Re-run last test action does not in HTML files [\#3007](https://github.com/cursive-ide/cursive/issues/3007)
+- *print-dup* breaks REPL test integration [\#3006](https://github.com/cursive-ide/cursive/issues/3006)
+- New Method Reference syntax for instance methods is flakey [\#2997](https://github.com/cursive-ide/cursive/issues/2997)
+- "Internal error: cannot patch the selected configuration" when running debugger [\#2995](https://github.com/cursive-ide/cursive/issues/2995)
+- test exceptions not shown sometimes, "Error handling response" in repl [\#2994](https://github.com/cursive-ide/cursive/issues/2994)
+- `cursive.repl.runtime.errors/ex->data` throws [\#2993](https://github.com/cursive-ide/cursive/issues/2993)
+- Thread/interrupted receives incorrect warning [\#2989](https://github.com/cursive-ide/cursive/issues/2989)
+- Config items in new REPL settings pane are not searchable [\#2987](https://github.com/cursive-ide/cursive/issues/2987)
+- Cannot "Clear Output for Current REPL" anymore if its not running [\#2984](https://github.com/cursive-ide/cursive/issues/2984)
+- Test runner reports failing tests as passed if actual or expected contains ansi color codes [\#2973](https://github.com/cursive-ide/cursive/issues/2973)
+- `IllegalArgumentException` with `:shrunk` field in custom `IPersistentMap` implementation [\#2966](https://github.com/cursive-ide/cursive/issues/2966)
 
