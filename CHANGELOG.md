@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2-eap1 - 2025-05-22
+
+### Added
+
+- Add support for 2025.2 EAP [\#3031](https://github.com/cursive-ide/cursive/issues/3031)
+
+### Fixed
+
+- Can't open DevTools when showing HTML using :display :editor [\#3033](https://github.com/cursive-ide/cursive/issues/3033)
+- Tagged literals printed incorrectly, space removed [\#3032](https://github.com/cursive-ide/cursive/issues/3032)
+
 ## 2025.1.1 - 2025-05-16
 
 ### Fixed
