@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2-eap2 - 2025-05-27
+
+### Fixed
+
+- Fix enter handling in line comments [\#3035](https://github.com/cursive-ide/cursive/issues/3035)
+
 ## 2025.2-eap1 - 2025-05-22
 
 ### Added
