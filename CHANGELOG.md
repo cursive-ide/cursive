@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2-eap3 - 2025-07-23
+
+### Added
+
+- Add support for clj-kondo, at last! [\#3044](https://github.com/cursive-ide/cursive/issues/3044)
+
 ## 2025.2-eap2 - 2025-05-27
 
 ### Fixed
