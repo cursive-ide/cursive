@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2-eap4 - 2025-07-24
+
+### Fixed
+
+- Very high memory use with clj-kondo integration [\#3045](https://github.com/cursive-ide/cursive/issues/3045)
+
 ## 2025.2-eap3 - 2025-07-23
 
 ### Added
