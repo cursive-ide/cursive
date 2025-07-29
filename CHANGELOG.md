@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2-eap5 - 2025-07-29
+
+### Fixed
+
+- Kondo integration repeatedly initialises [\#3047](https://github.com/cursive-ide/cursive/issues/3047)
+- Exceptions cannot be submitted if title is too long [\#3046](https://github.com/cursive-ide/cursive/issues/3046)
+
 ## 2025.2-eap4 - 2025-07-24
 
 ### Fixed
