@@ -4,45 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 2025.2-eap6 - 2025-08-04
-
-### Fixed
-
-- ClassNotFoundException in older IntelliJ versions [\#3049](https://github.com/cursive-ide/cursive/issues/3049)
-
-## 2025.2-eap5 - 2025-07-29
-
-### Fixed
-
-- Kondo integration repeatedly initialises [\#3047](https://github.com/cursive-ide/cursive/issues/3047)
-- Exceptions cannot be submitted if title is too long [\#3046](https://github.com/cursive-ide/cursive/issues/3046)
-
-## 2025.2-eap4 - 2025-07-24
-
-### Fixed
-
-- Very high memory use with clj-kondo integration [\#3045](https://github.com/cursive-ide/cursive/issues/3045)
-
-## 2025.2-eap3 - 2025-07-23
+## 2025.2 - 2025-08-04
 
 ### Added
 
 - Add support for clj-kondo, at last! [\#3044](https://github.com/cursive-ide/cursive/issues/3044)
-
-## 2025.2-eap2 - 2025-05-27
-
-### Fixed
-
-- Fix enter handling in line comments [\#3035](https://github.com/cursive-ide/cursive/issues/3035)
-
-## 2025.2-eap1 - 2025-05-22
-
-### Added
-
 - Add support for 2025.2 EAP [\#3031](https://github.com/cursive-ide/cursive/issues/3031)
 
 ### Fixed
 
+- Exceptions cannot be submitted if title is too long [\#3046](https://github.com/cursive-ide/cursive/issues/3046)
+- Fix enter handling in line comments [\#3035](https://github.com/cursive-ide/cursive/issues/3035)
 - Can't open DevTools when showing HTML using :display :editor [\#3033](https://github.com/cursive-ide/cursive/issues/3033)
 - Tagged literals printed incorrectly, space removed [\#3032](https://github.com/cursive-ide/cursive/issues/3032)
 
