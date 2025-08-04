@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2-eap6 - 2025-08-04
+
+### Fixed
+
+- ClassNotFoundException in older IntelliJ versions [\#3049](https://github.com/cursive-ide/cursive/issues/3049)
+
 ## 2025.2-eap5 - 2025-07-29
 
 ### Fixed
