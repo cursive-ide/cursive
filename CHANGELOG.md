@@ -4,6 +4,18 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2.1-eap1 - 2025-08-11
+
+### Changed
+
+- Allow Kondo use with build systems other than lein/deps [\#3054](https://github.com/cursive-ide/cursive/issues/3054)
+- Allow enabling Kondo just for certain modules [\#3053](https://github.com/cursive-ide/cursive/issues/3053)
+- Make clj-kondo inspection results less intrusive [\#3050](https://github.com/cursive-ide/cursive/issues/3050)
+
+### Fixed
+
+- Error with 2025.2 when editing deps files if the Kotlin plugin is not installed [\#3051](https://github.com/cursive-ide/cursive/issues/3051)
+
 ## 2025.2 - 2025-08-04
 
 ### Added
