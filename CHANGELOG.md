@@ -4,6 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2.1-eap2 - 2025-08-15
+
+### Fixed
+
+- Tagged literal: <sym> cannot be resolved [\#3056](https://github.com/cursive-ide/cursive/issues/3056)
+- Exception reports cannot be submitted [\#3055](https://github.com/cursive-ide/cursive/issues/3055)
+
 ## 2025.2.1-eap1 - 2025-08-11
 
 ### Changed
