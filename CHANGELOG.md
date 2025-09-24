@@ -4,6 +4,19 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2.1-eap3 - 2025-09-24
+
+### Changed
+
+- Add support for 2025.3 EAP [\#3064](https://github.com/cursive-ide/cursive/issues/3064)
+- Don't offer to use clj-kondo in Maven-only projects [\#3060](https://github.com/cursive-ide/cursive/issues/3060)
+
+### Fixed
+
+- Pedantic error when using lein 2.12.0 [\#3065](https://github.com/cursive-ide/cursive/issues/3065)
+- Kondo inspections don't update when config files are updated [\#3063](https://github.com/cursive-ide/cursive/issues/3063)
+- Inline seeker shows incorrect results if REPL result is not readable [\#3061](https://github.com/cursive-ide/cursive/issues/3061)
+
 ## 2025.2.1-eap2 - 2025-08-15
 
 ### Fixed
