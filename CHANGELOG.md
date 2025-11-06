@@ -4,6 +4,16 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2.1-eap4 - 2025-11-06
+
+### Changed
+
+- Don't pass `--copy-configs` to clj-kondo (or make it configurable) [\#3066](https://github.com/cursive-ide/cursive/issues/3066)
+
+### Fixed
+
+- When starting a lein REPL using a proxy configuration, credential store exception is thrown [\#3070](https://github.com/cursive-ide/cursive/issues/3070)
+
 ## 2025.2.1-eap3 - 2025-09-24
 
 ### Changed
