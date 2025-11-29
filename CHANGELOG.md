@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2.1-eap6 - 2025-11-29
+
+### Fixed
+
+- Register Cursive dialog can't be opened in latest EAP if stored licence starts with blank lines [\#3073](https://github.com/cursive-ide/cursive/issues/3073)
+
 ## 2025.2.1-eap5 - 2025-11-26
 
 ## 2025.2.1-eap4 - 2025-11-06
