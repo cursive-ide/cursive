@@ -4,6 +4,8 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2025.2.1-eap7 - 2025-12-02
+
 ## 2025.2.1-eap6 - 2025-11-29
 
 ### Fixed
