@@ -4,56 +4,25 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 2025.2.1-eap7 - 2025-12-02
-
-## 2025.2.1-eap6 - 2025-11-29
-
-### Fixed
-
-- Register Cursive dialog can't be opened in latest EAP if stored licence starts with blank lines [\#3073](https://github.com/cursive-ide/cursive/issues/3073)
-
-## 2025.2.1-eap5 - 2025-11-26
-
-## 2025.2.1-eap4 - 2025-11-06
+## 2025.2.1 - 2025-12-04
 
 ### Changed
 
 - Don't pass `--copy-configs` to clj-kondo (or make it configurable) [\#3066](https://github.com/cursive-ide/cursive/issues/3066)
-
-### Fixed
-
-- When starting a lein REPL using a proxy configuration, credential store exception is thrown [\#3070](https://github.com/cursive-ide/cursive/issues/3070)
-
-## 2025.2.1-eap3 - 2025-09-24
-
-### Changed
-
 - Add support for 2025.3 EAP [\#3064](https://github.com/cursive-ide/cursive/issues/3064)
 - Don't offer to use clj-kondo in Maven-only projects [\#3060](https://github.com/cursive-ide/cursive/issues/3060)
-
-### Fixed
-
-- Pedantic error when using lein 2.12.0 [\#3065](https://github.com/cursive-ide/cursive/issues/3065)
-- Kondo inspections don't update when config files are updated [\#3063](https://github.com/cursive-ide/cursive/issues/3063)
-- Inline seeker shows incorrect results if REPL result is not readable [\#3061](https://github.com/cursive-ide/cursive/issues/3061)
-
-## 2025.2.1-eap2 - 2025-08-15
-
-### Fixed
-
-- Tagged literal: <sym> cannot be resolved [\#3056](https://github.com/cursive-ide/cursive/issues/3056)
-- Exception reports cannot be submitted [\#3055](https://github.com/cursive-ide/cursive/issues/3055)
-
-## 2025.2.1-eap1 - 2025-08-11
-
-### Changed
-
 - Allow Kondo use with build systems other than lein/deps [\#3054](https://github.com/cursive-ide/cursive/issues/3054)
 - Allow enabling Kondo just for certain modules [\#3053](https://github.com/cursive-ide/cursive/issues/3053)
 - Make clj-kondo inspection results less intrusive [\#3050](https://github.com/cursive-ide/cursive/issues/3050)
 
 ### Fixed
 
+- When starting a lein REPL using a proxy configuration, credential store exception is thrown [\#3070](https://github.com/cursive-ide/cursive/issues/3070)
+- Pedantic error when using lein 2.12.0 [\#3065](https://github.com/cursive-ide/cursive/issues/3065)
+- Kondo inspections don't update when config files are updated [\#3063](https://github.com/cursive-ide/cursive/issues/3063)
+- Inline seeker shows incorrect results if REPL result is not readable [\#3061](https://github.com/cursive-ide/cursive/issues/3061)
+- Tagged literal: <sym> cannot be resolved [\#3056](https://github.com/cursive-ide/cursive/issues/3056)
+- Exception reports cannot be submitted [\#3055](https://github.com/cursive-ide/cursive/issues/3055)
 - Error with 2025.2 when editing deps files if the Kotlin plugin is not installed [\#3051](https://github.com/cursive-ide/cursive/issues/3051)
 
 ## 2025.2 - 2025-08-04
