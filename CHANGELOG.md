@@ -8,6 +8,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ### Added
 
+- Add refactoring option to :refer a var [\#863](https://github.com/cursive-ide/cursive/issues/863)
 - Support IntelliJ 2026.1 EAP [\#3078](https://github.com/cursive-ide/cursive/issues/3078)
 - Auto-refer previously referred vars [\#3076](https://github.com/cursive-ide/cursive/issues/3076)
 - Auto import from fully qualified namespaced keywords [\#3003](https://github.com/cursive-ide/cursive/issues/3003)
