@@ -4,15 +4,21 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.1-eap2 - 2026-02-02
+
+### Fixed
+
+- Can't open settings with Cursive 2026.1-eap1 [\#3079](https://github.com/cursive-ide/cursive/issues/3079)
+
 ## 2026.1-eap1 - 2026-02-01
 
 ### Added
 
-- Add refactoring option to :refer a var [\#863](https://github.com/cursive-ide/cursive/issues/863)
 - Support IntelliJ 2026.1 EAP [\#3078](https://github.com/cursive-ide/cursive/issues/3078)
 - Auto-refer previously referred vars [\#3076](https://github.com/cursive-ide/cursive/issues/3076)
 - Auto import from fully qualified namespaced keywords [\#3003](https://github.com/cursive-ide/cursive/issues/3003)
 - "Require" quick fix for keywords namespaced with an alias [\#1552](https://github.com/cursive-ide/cursive/issues/1552)
+- Add refactoring option to :refer a var [\#863](https://github.com/cursive-ide/cursive/issues/863)
 
 ## 2025.2.1 - 2025-12-04
 
