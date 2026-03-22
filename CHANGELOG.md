@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.1-eap3 - 2026-03-22
+
+### Added
+
+- Inspection/intention to require/add alias for namespace keyword [\#3080](https://github.com/cursive-ide/cursive/issues/3080)
+- Add support for better-cond [\#3048](https://github.com/cursive-ide/cursive/issues/3048)
+- Add support for core.async alt! and alt!! macros [\#2534](https://github.com/cursive-ide/cursive/issues/2534)
+
+### Changed
+
+- Configuration flag to always use :as when adding aliases for namespaced keywords [\#3081](https://github.com/cursive-ide/cursive/issues/3081)
+
+### Fixed
+
+- REPL cannot be started while IDE is indexing [\#3082](https://github.com/cursive-ide/cursive/issues/3082)
+
 ## 2026.1-eap2 - 2026-02-02
 
 ### Fixed
