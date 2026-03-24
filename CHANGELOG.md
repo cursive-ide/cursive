@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.1-eap4 - 2026-03-24
+
+### Fixed
+
+- When using Standard formatter, enter can incorrectly indent follower comments [\#3089](https://github.com/cursive-ide/cursive/issues/3089)
+- When using Standard formatter, enter incorrectly indents map values [\#3088](https://github.com/cursive-ide/cursive/issues/3088)
+- Standard formatter loses Rule 3 after inline trailing comments [\#3087](https://github.com/cursive-ide/cursive/issues/3087)
+- Standard formatter loses Rule 3 after inline trailing comments [\#3086](https://github.com/cursive-ide/cursive/issues/3086)
+- Standard formatter breaks nested Rule 3 threading indentation inside enclosing forms [\#3085](https://github.com/cursive-ide/cursive/issues/3085)
+- IDE can freeze when REPL actions are shown on the main toolbar [\#3084](https://github.com/cursive-ide/cursive/issues/3084)
+
 ## 2026.1-eap3 - 2026-03-22
 
 ### Added
