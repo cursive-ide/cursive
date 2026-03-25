@@ -4,7 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 2026.1-eap4 - 2026-03-24
+## 2026.1 - 2026-03-25
+
+### Added
+
+- Inspection/intention to require/add alias for namespace keyword [\#3080](https://github.com/cursive-ide/cursive/issues/3080)
+- Support IntelliJ 2026.1 EAP [\#3078](https://github.com/cursive-ide/cursive/issues/3078)
+- Auto-refer previously referred vars [\#3076](https://github.com/cursive-ide/cursive/issues/3076)
+- Add support for better-cond [\#3048](https://github.com/cursive-ide/cursive/issues/3048)
+- Auto import from fully qualified namespaced keywords [\#3003](https://github.com/cursive-ide/cursive/issues/3003)
+- Add support for core.async alt! and alt!! macros [\#2534](https://github.com/cursive-ide/cursive/issues/2534)
+- "Require" quick fix for keywords namespaced with an alias [\#1552](https://github.com/cursive-ide/cursive/issues/1552)
+- Add refactoring option to :refer a var [\#863](https://github.com/cursive-ide/cursive/issues/863)
+
+### Changed
+
+- Configuration flag to always use :as when adding aliases for namespaced keywords [\#3081](https://github.com/cursive-ide/cursive/issues/3081)
 
 ### Fixed
 
@@ -14,38 +29,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Standard formatter loses Rule 3 after inline trailing comments [\#3086](https://github.com/cursive-ide/cursive/issues/3086)
 - Standard formatter breaks nested Rule 3 threading indentation inside enclosing forms [\#3085](https://github.com/cursive-ide/cursive/issues/3085)
 - IDE can freeze when REPL actions are shown on the main toolbar [\#3084](https://github.com/cursive-ide/cursive/issues/3084)
-
-## 2026.1-eap3 - 2026-03-22
-
-### Added
-
-- Inspection/intention to require/add alias for namespace keyword [\#3080](https://github.com/cursive-ide/cursive/issues/3080)
-- Add support for better-cond [\#3048](https://github.com/cursive-ide/cursive/issues/3048)
-- Add support for core.async alt! and alt!! macros [\#2534](https://github.com/cursive-ide/cursive/issues/2534)
-
-### Changed
-
-- Configuration flag to always use :as when adding aliases for namespaced keywords [\#3081](https://github.com/cursive-ide/cursive/issues/3081)
-
-### Fixed
-
 - REPL cannot be started while IDE is indexing [\#3082](https://github.com/cursive-ide/cursive/issues/3082)
-
-## 2026.1-eap2 - 2026-02-02
-
-### Fixed
-
 - Can't open settings with Cursive 2026.1-eap1 [\#3079](https://github.com/cursive-ide/cursive/issues/3079)
-
-## 2026.1-eap1 - 2026-02-01
-
-### Added
-
-- Support IntelliJ 2026.1 EAP [\#3078](https://github.com/cursive-ide/cursive/issues/3078)
-- Auto-refer previously referred vars [\#3076](https://github.com/cursive-ide/cursive/issues/3076)
-- Auto import from fully qualified namespaced keywords [\#3003](https://github.com/cursive-ide/cursive/issues/3003)
-- "Require" quick fix for keywords namespaced with an alias [\#1552](https://github.com/cursive-ide/cursive/issues/1552)
-- Add refactoring option to :refer a var [\#863](https://github.com/cursive-ide/cursive/issues/863)
 
 ## 2025.2.1 - 2025-12-04
 
