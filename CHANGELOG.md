@@ -4,6 +4,23 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.2-eap1 - 2026-05-22
+
+### Added
+
+- Support IntelliJ 2026.2 EAP [\#3095](https://github.com/cursive-ide/cursive/issues/3095)
+
+### Changed
+
+- Offer Class/new quick fixes for ambiguous constructor calls [\#3100](https://github.com/cursive-ide/cursive/issues/3100)
+- Show modal warning before invalid build shutdown [\#3094](https://github.com/cursive-ide/cursive/issues/3094)
+
+### Fixed
+
+- Filter missing auto-resolved keyword alias quick fixes by keyword existence [\#3098](https://github.com/cursive-ide/cursive/issues/3098)
+- Optimize Imports cljs require sorting should match clj-kondo [\#3097](https://github.com/cursive-ide/cursive/issues/3097)
+- Cursive crash in clojure.test diff can make failing assertions appear to pass [\#3096](https://github.com/cursive-ide/cursive/issues/3096)
+
 ## 2026.1 - 2026-03-25
 
 ### Added
