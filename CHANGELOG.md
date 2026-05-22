@@ -20,6 +20,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 - Filter missing auto-resolved keyword alias quick fixes by keyword existence [\#3098](https://github.com/cursive-ide/cursive/issues/3098)
 - Optimize Imports cljs require sorting should match clj-kondo [\#3097](https://github.com/cursive-ide/cursive/issues/3097)
 - Cursive crash in clojure.test diff can make failing assertions appear to pass [\#3096](https://github.com/cursive-ide/cursive/issues/3096)
+- Optimize imports can change namespace require indentation [\#3093](https://github.com/cursive-ide/cursive/issues/3093)
 
 ## 2026.1 - 2026-03-25
 
