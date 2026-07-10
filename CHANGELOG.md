@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.2-eap2 - 2026-07-10
+
+### Added
+
+- Add support for new syntax in Clojure 1.13 alpha [\#3104](https://github.com/cursive-ide/cursive/issues/3104)
+
 ## 2026.2-eap1 - 2026-05-22
 
 ### Added
