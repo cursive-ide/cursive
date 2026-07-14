@@ -4,6 +4,15 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.2-eap3 - 2026-07-14
+
+### Fixed
+
+- Cursive freezes the IDE UI: `FileContentWatcherService` blocks the EDT via `runBlocking{}` inside a `beforeRootsChange` listener [\#3103](https://github.com/cursive-ide/cursive/issues/3103)
+- Cursive Installed (2026.2-eap1-261) + Scala: Project tool window is missing many directories. [\#3102](https://github.com/cursive-ide/cursive/issues/3102)
+- global REPL commands can not be edited [\#3083](https://github.com/cursive-ide/cursive/issues/3083)
+- Cursive doesn't see dependencies of the Noj library in a Leiningen project [\#3077](https://github.com/cursive-ide/cursive/issues/3077)
+
 ## 2026.2-eap2 - 2026-07-10
 
 ### Added
