@@ -4,25 +4,11 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 2026.2-eap3 - 2026-07-14
-
-### Fixed
-
-- Cursive freezes the IDE UI: `FileContentWatcherService` blocks the EDT via `runBlocking{}` inside a `beforeRootsChange` listener [\#3103](https://github.com/cursive-ide/cursive/issues/3103)
-- Cursive Installed (2026.2-eap1-261) + Scala: Project tool window is missing many directories. [\#3102](https://github.com/cursive-ide/cursive/issues/3102)
-- global REPL commands can not be edited [\#3083](https://github.com/cursive-ide/cursive/issues/3083)
-- Cursive doesn't see dependencies of the Noj library in a Leiningen project [\#3077](https://github.com/cursive-ide/cursive/issues/3077)
-
-## 2026.2-eap2 - 2026-07-10
+## 2026.2 - 2026-07-16
 
 ### Added
 
 - Add support for new syntax in Clojure 1.13 alpha [\#3104](https://github.com/cursive-ide/cursive/issues/3104)
-
-## 2026.2-eap1 - 2026-05-22
-
-### Added
-
 - Support IntelliJ 2026.2 EAP [\#3095](https://github.com/cursive-ide/cursive/issues/3095)
 
 ### Changed
@@ -32,10 +18,14 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ### Fixed
 
+- Cursive freezes the IDE UI: `FileContentWatcherService` blocks the EDT via `runBlocking{}` inside a `beforeRootsChange` listener [\#3103](https://github.com/cursive-ide/cursive/issues/3103)
+- Cursive Installed (2026.2-eap1-261) + Scala: Project tool window is missing many directories. [\#3102](https://github.com/cursive-ide/cursive/issues/3102)
 - Filter missing auto-resolved keyword alias quick fixes by keyword existence [\#3098](https://github.com/cursive-ide/cursive/issues/3098)
 - Optimize Imports cljs require sorting should match clj-kondo [\#3097](https://github.com/cursive-ide/cursive/issues/3097)
 - Cursive crash in clojure.test diff can make failing assertions appear to pass [\#3096](https://github.com/cursive-ide/cursive/issues/3096)
 - Optimize imports can change namespace require indentation [\#3093](https://github.com/cursive-ide/cursive/issues/3093)
+- global REPL commands can not be edited [\#3083](https://github.com/cursive-ide/cursive/issues/3083)
+- Cursive doesn't see dependencies of the Noj library in a Leiningen project [\#3077](https://github.com/cursive-ide/cursive/issues/3077)
 
 ## 2026.1 - 2026-03-25
 
