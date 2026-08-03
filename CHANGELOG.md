@@ -4,6 +4,22 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.2.1-eap1 - 2026-08-03
+
+### Changed
+
+- Use .idea/.name for deps.edn project and module names [\#3108](https://github.com/cursive-ide/cursive/issues/3108)
+- Update destructuring grammar for Clojure 1.13-alpha4 [\#3107](https://github.com/cursive-ide/cursive/issues/3107)
+- Make Leiningen error messages clickable [\#3058](https://github.com/cursive-ide/cursive/issues/3058)
+
+### Fixed
+
+- Classic formatter incorrectly indents newline-split namespaced maps [\#3106](https://github.com/cursive-ide/cursive/issues/3106)
+- Generate stubs - Syntax error reading source [\#3101](https://github.com/cursive-ide/cursive/issues/3101)
+- Static Field access - cursive wrongly highlights method call as "warning" if a static field with the same name exists. [\#3074](https://github.com/cursive-ide/cursive/issues/3074)
+- UI Freeze when starting REPL on WSL (blocking socketConnect on AWT thread) [\#3067](https://github.com/cursive-ide/cursive/issues/3067)
+- Test reporting fails over non-string assertion message in `clojure.test/is` [\#2962](https://github.com/cursive-ide/cursive/issues/2962)
+
 ## 2026.2 - 2026-07-16
 
 ### Added
