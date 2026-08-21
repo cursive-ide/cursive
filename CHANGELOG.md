@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.3.0-eap2 - 2026-08-21
+
+### Fixed
+
+- Standard formatter uses incorrect indentation in namespace clauses [\#3109](https://github.com/cursive-ide/cursive/issues/3109)
+
 ## 2026.2.1-eap1 - 2026-08-03
 
 ### Changed
