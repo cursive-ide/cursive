@@ -10,7 +10,7 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 - Standard formatter uses incorrect indentation in namespace clauses [\#3109](https://github.com/cursive-ide/cursive/issues/3109)
 
-## 2026.2.1-eap1 - 2026-08-03
+## 2026.3.0-eap1 - 2026-08-03
 
 ### Changed
 
