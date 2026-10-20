@@ -4,6 +4,17 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.3.0-eap3 - 2026-10-20
+
+### Added
+
+- Support the Clojure 1.13 selector macro [\#3111](https://github.com/cursive-ide/cursive/issues/3111)
+- Support :missing and :excess destructuring directives [\#3110](https://github.com/cursive-ide/cursive/issues/3110)
+
+### Fixed
+
+- Multiple project-specific REPL commands with same name causes exception [\#2898](https://github.com/cursive-ide/cursive/issues/2898)
+
 ## 2026.3.0-eap2 - 2026-08-21
 
 ### Fixed
