@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.3.0-eap4 - 2026-10-30
+
+### Added
+
+- Destructuring updates: remove :defaults, support :req! [\#3114](https://github.com/cursive-ide/cursive/issues/3114)
+
 ## 2026.3.0-eap3 - 2026-10-20
 
 ### Added
