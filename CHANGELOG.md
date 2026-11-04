@@ -4,30 +4,13 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
-## 2026.3.0-eap4 - 2026-10-30
+## 2026.3.0 - 2026-11-04
 
 ### Added
 
 - Destructuring updates: remove :defaults, support :req! [\#3114](https://github.com/cursive-ide/cursive/issues/3114)
-
-## 2026.3.0-eap3 - 2026-10-20
-
-### Added
-
 - Support the Clojure 1.13 selector macro [\#3111](https://github.com/cursive-ide/cursive/issues/3111)
 - Support :missing and :excess destructuring directives [\#3110](https://github.com/cursive-ide/cursive/issues/3110)
-
-### Fixed
-
-- Multiple project-specific REPL commands with same name causes exception [\#2898](https://github.com/cursive-ide/cursive/issues/2898)
-
-## 2026.3.0-eap2 - 2026-08-21
-
-### Fixed
-
-- Standard formatter uses incorrect indentation in namespace clauses [\#3109](https://github.com/cursive-ide/cursive/issues/3109)
-
-## 2026.3.0-eap1 - 2026-08-03
 
 ### Changed
 
@@ -37,11 +20,13 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
 ### Fixed
 
+- Standard formatter uses incorrect indentation in namespace clauses [\#3109](https://github.com/cursive-ide/cursive/issues/3109)
 - Classic formatter incorrectly indents newline-split namespaced maps [\#3106](https://github.com/cursive-ide/cursive/issues/3106)
 - Generate stubs - Syntax error reading source [\#3101](https://github.com/cursive-ide/cursive/issues/3101)
 - Static Field access - cursive wrongly highlights method call as "warning" if a static field with the same name exists. [\#3074](https://github.com/cursive-ide/cursive/issues/3074)
 - UI Freeze when starting REPL on WSL (blocking socketConnect on AWT thread) [\#3067](https://github.com/cursive-ide/cursive/issues/3067)
 - Test reporting fails over non-string assertion message in `clojure.test/is` [\#2962](https://github.com/cursive-ide/cursive/issues/2962)
+- Multiple project-specific REPL commands with same name causes exception [\#2898](https://github.com/cursive-ide/cursive/issues/2898)
 
 ## 2026.2 - 2026-07-16
 
