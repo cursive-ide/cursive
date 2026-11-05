@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.4.0 - 2026-11-05
+
+### Added
+
+- Add support for IntelliJ 2026.3 [\#3115](https://github.com/cursive-ide/cursive/issues/3115)
+
 ## 2026.3.0 - 2026-11-04
 
 ### Added
