@@ -4,6 +4,12 @@ All notable changes to this project will be documented in this file.
 
 The format is based on [Keep a Changelog](https://keepachangelog.com/)
 
+## 2026.4.1 - 2026-11-05
+
+### Fixed
+
+- Arrow keys can cause threading errors in IntelliJ 2026.3 [\#3116](https://github.com/cursive-ide/cursive/issues/3116)
+
 ## 2026.4.0 - 2026-11-05
 
 ### Added
